@@ -21,8 +21,9 @@ by name.
 | `rosbag2_2026_08_31-17_09_53.7z` | a ROS 2 bag directory |
 | `rosbag2_2026_08_31-17_12_49.7z` | a ROS 2 bag directory |
  
-The remaining `.bag` files are uploaded loose and need no extraction.
-## Source recordings — archive these
+The remaining `.bag` files are uploaded loose and dont need extraction (just copy loose into this /data directory).
+
+## Source recordings
 
 Irreplaceable. Each is a single testbed or simulator session and cannot be
 regenerated from anything in this repository.
