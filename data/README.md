@@ -7,7 +7,7 @@ will run.
 
 ## Where the recordings live
 
-In my shared document folder in the project Teams group.
+In my shared document folder in the project Teams group, under `Source recordings`.
 
 Copy everything listed below into this directory and extract the archives in
 place, so the files end up with their original names. **Filenames are
