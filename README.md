@@ -36,7 +36,7 @@ of that the algorithm's built-in degeneracy check recovers.
 Ubuntu 20.04, ROS Noetic.
 
 ```bash
-git clone --recurse-submodules git@github.com:isobelj715/?? catkin_ws
+git clone --recurse-submodules git@github.com:isobelj715/egh490-lunar-localisation-handover catkin_ws
 cd catkin_ws
 catkin_make
 source devel/setup.bash
@@ -74,7 +74,7 @@ setting by naming convention, `m0f10` meaning map 0, feature 10.
 
 **Segmentation is not upstream.** `segmentTheta` 20°, `segmentValidPointNum` 3,
 `segmentValidLineNum` 2, all relaxed from the defaults so small clusters survive
-in sparse terrain. Unchanged since May 2026 and identical across every run.
+in sparse terrain. 
 
 **Loop closure is off** (`loopClosureEnableFlag = false`). All results are pure
 odometry plus scan-to-map refinement — no pose-graph correction. In an arena the
