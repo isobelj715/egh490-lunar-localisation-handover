@@ -1,0 +1,8 @@
+Recording run 'L2'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/rectangle/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 257 est poses -> results/testbed/rectangle/est_raw_L2.txt  (2.5 Hz over 102.6 s, 34.88 m)
+Saved metadata -> results/testbed/rectangle/meta_L2.json

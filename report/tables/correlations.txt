@@ -1,0 +1,151 @@
+   turn rate off body axis 'z' (3 deg out of plane): median 2.9 deg/s, peak 31.2
+
+est_raw_L3.txt
+   247 poses over 98.3 s; local error window 2.0 m
+   divergence first exceeds 0.50 m at t = 8.0 s
+   structure.csv: 240 rows, time column 't', span 95.5 s
+
+   Spearman correlation of LOCAL error against:
+                           whole run before fail while moving   vs time time removed
+                               n=225        n=11        n=225                       
+   ---------------------------------------------------------------------------------
+   correspondences             -0.55       -0.18        -0.55     -0.35        -0.48  how much usable structure is in view
+   lambda_min                  -0.28       -0.17        -0.28     -0.11        -0.26  how well the pose is constrained
+   residual rms                -0.12       -0.47        -0.12     +0.18        -0.22  fit quality before optimising
+   LM iterations               -0.07       -0.45        -0.07     -0.25        +0.04 !  how hard the solver worked
+   rover speed                 +0.05       -0.26        +0.05     +0.58        -0.26  true speed from the baseline
+   turn rate                   -0.05       -0.43        -0.05     +0.29        -0.20  |heading rate| from the baseline
+
+   the LOCAL ERROR itself is +0.41 against time while moving.
+
+   ! LM iterations sits at one value for most of the run, so its rank correlation is
+     driven by a handful of points. Do not quote it.
+
+   Read 'while moving' first. 'whole run' is contaminated by the opening
+   parked window, where speed, structure and error all step up together the
+   moment the rover sets off; 'before fail' is only meaningful on a run that
+   drove for a while before it diverged.
+   A strong negative correlation with correspondences or lambda_min means error
+   is produced when structure thins out. A strong positive one with speed means
+   the failure is about how fast the rover was moving, not what it could see.
+   Values near zero on both mean the error is not explained by any of these --
+   which, if the suppression is on, is itself the finding: the solver is
+   refusing to update for reasons unrelated to the scene getting harder.
+
+   suppression active for 0% of the windows
+
+wrote report_v2/figs/timeline_september_lim.png
+   turn rate off body axis 'z' (1 deg out of plane): median 1.1 deg/s, peak 25.5
+
+est_raw_L3.txt
+   256 poses over 102.3 s; local error window 2.0 m
+   divergence first exceeds 0.50 m at t = 17.9 s
+   structure.csv: 240 rows, time column 't', span 95.9 s
+
+   Spearman correlation of LOCAL error against:
+                           whole run before fail while moving   vs time time removed
+                               n=208        n=36        n=182                       
+   ---------------------------------------------------------------------------------
+   correspondences             -0.37       +0.00        -0.40     +0.61        -0.57  how much usable structure is in view
+   lambda_min                  +0.25       -0.11        -0.10     +0.81        -0.29  how well the pose is constrained
+   residual rms                +0.48       -0.21        +0.25     +0.00        +0.25  fit quality before optimising
+   LM iterations               +0.62       -0.12        +0.44     -0.10        +0.45 !  how hard the solver worked
+   rover speed                 +0.52       -0.14        +0.29     -0.01        +0.30  true speed from the baseline
+   turn rate                   +0.43       -0.29        +0.17     +0.24        +0.16  |heading rate| from the baseline
+
+   the LOCAL ERROR itself is +0.09 against time while moving.
+
+   ! LM iterations sits at one value for most of the run, so its rank correlation is
+     driven by a handful of points. Do not quote it.
+
+   Read 'while moving' first. 'whole run' is contaminated by the opening
+   parked window, where speed, structure and error all step up together the
+   moment the rover sets off; 'before fail' is only meaningful on a run that
+   drove for a while before it diverged.
+   A strong negative correlation with correspondences or lambda_min means error
+   is produced when structure thins out. A strong positive one with speed means
+   the failure is about how fast the rover was moving, not what it could see.
+   Values near zero on both mean the error is not explained by any of these --
+   which, if the suppression is on, is itself the finding: the solver is
+   refusing to update for reasons unrelated to the scene getting harder.
+
+   suppression active for 0% of the windows
+
+wrote report_v2/figs/timeline_rectangle_lim.png
+   turn rate off body axis 'z' (1 deg out of plane): median 0.2 deg/s, peak 52.5
+
+est_raw_L3.txt
+   182 poses over 72.3 s; local error window 2.0 m
+   divergence first exceeds 0.50 m at t = 18.1 s
+   structure.csv: 180 rows, time column 't', span 71.5 s
+
+   Spearman correlation of LOCAL error against:
+                           whole run before fail while moving   vs time time removed
+                               n=133        n=34         n=99                       
+   ---------------------------------------------------------------------------------
+   correspondences             +0.12       -0.10        -0.19     +0.16        -0.26  how much usable structure is in view
+   lambda_min                  +0.21       -0.30        -0.12     +0.55        -0.38  how well the pose is constrained
+   residual rms                +0.41       -0.06        +0.21     -0.17        +0.28  fit quality before optimising
+   LM iterations               +0.30       -0.39        +0.19     -0.47        +0.42 !  how hard the solver worked
+   rover speed                 +0.44       -0.19        +0.28     +0.23        +0.22  true speed from the baseline
+   turn rate                   +0.38       -0.28        +0.20     +0.51        +0.03  |heading rate| from the baseline
+
+   the LOCAL ERROR itself is +0.33 against time while moving.
+
+   ! LM iterations sits at one value for most of the run, so its rank correlation is
+     driven by a handful of points. Do not quote it.
+
+   !! every 'before fail' window is a parked one, so that column is a
+      correlation against a stationary rover. Ignore it and read 'while moving'.
+
+   Read 'while moving' first. 'whole run' is contaminated by the opening
+   parked window, where speed, structure and error all step up together the
+   moment the rover sets off; 'before fail' is only meaningful on a run that
+   drove for a while before it diverged.
+   A strong negative correlation with correspondences or lambda_min means error
+   is produced when structure thins out. A strong positive one with speed means
+   the failure is about how fast the rover was moving, not what it could see.
+   Values near zero on both mean the error is not explained by any of these --
+   which, if the suppression is on, is itself the finding: the solver is
+   refusing to update for reasons unrelated to the scene getting harder.
+
+   suppression active for 0% of the windows
+
+wrote report_v2/figs/timeline_ellipse1_lim.png
+   turn rate off body axis 'z' (0 deg out of plane): median 1.1 deg/s, peak 41.9
+
+est_raw_L3.txt
+   143 poses over 56.8 s; local error window 2.0 m
+   divergence first exceeds 0.50 m at t = 15.4 s
+   structure.csv: 140 rows, time column 't', span 55.7 s
+
+   Spearman correlation of LOCAL error against:
+                           whole run before fail while moving   vs time time removed
+                               n=101        n=22         n=80                       
+   ---------------------------------------------------------------------------------
+   correspondences             +0.05       +0.34        +0.15     +0.87        -0.26  how much usable structure is in view
+   lambda_min                  +0.01       +0.33        +0.04     +0.84        -0.43  how well the pose is constrained
+   residual rms                -0.11       -0.30        -0.00     +0.01        -0.01  fit quality before optimising
+   LM iterations               -0.04       +0.07        +0.06     -0.15        +0.11 !  how hard the solver worked
+   rover speed                 +0.13       -0.60        +0.35     +0.83        +0.18  true speed from the baseline
+   turn rate                   -0.15       -0.45        -0.03     +0.30        -0.14  |heading rate| from the baseline
+
+   the LOCAL ERROR itself is +0.31 against time while moving.
+
+   ! LM iterations sits at one value for most of the run, so its rank correlation is
+     driven by a handful of points. Do not quote it.
+
+   Read 'while moving' first. 'whole run' is contaminated by the opening
+   parked window, where speed, structure and error all step up together the
+   moment the rover sets off; 'before fail' is only meaningful on a run that
+   drove for a while before it diverged.
+   A strong negative correlation with correspondences or lambda_min means error
+   is produced when structure thins out. A strong positive one with speed means
+   the failure is about how fast the rover was moving, not what it could see.
+   Values near zero on both mean the error is not explained by any of these --
+   which, if the suppression is on, is itself the finding: the solver is
+   refusing to update for reasons unrelated to the scene getting harder.
+
+   suppression active for 0% of the windows
+
+wrote report_v2/figs/timeline_zigzag_lim.png

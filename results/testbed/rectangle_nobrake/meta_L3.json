@@ -1,0 +1,13 @@
+{
+  "run": "L3",
+  "gt_topic": "/ground_truth/state",
+  "est_topic": "/aft_mapped_to_init",
+  "git_sha": "d530a74f163d161e20aa040529e9afa68e1a528e",
+  "trajectory": "L3",
+  "note": "rectangle L3 rate=0.3",
+  "gt_poses": 0,
+  "est_poses": 257,
+  "est_duration_s": 102.387,
+  "est_rate_hz": 2.5,
+  "est_path_len_m": 70.5528
+}

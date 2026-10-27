@@ -1,0 +1,8 @@
+Recording run 'FIX100'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/refilter/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 119 est poses -> results/testbed/refilter/est_raw_FIX100.txt  (1.3 Hz over 87.8 s, 39.02 m)
+Saved metadata -> results/testbed/refilter/meta_FIX100.json

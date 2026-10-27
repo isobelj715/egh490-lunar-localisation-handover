@@ -1,0 +1,96 @@
+[scanlog] logging to /home/lego/catkin_ws/data/results/testbed/final/logs/L3/conditioning.csv
+[scanlog] logging to /home/lego/catkin_ws/data/results/testbed/final/logs/L3/features.csv
+[0m[INFO] [1790909521.132417953]: [1;32m---->[0m Feature Association Started.[0m
+[0m[INFO] [1790909531.355933454, 1789542191.442105931]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909538.046328826, 1789542193.456648588]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909544.727804703, 1789542195.458907183]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+[0m[INFO] [1790909551.401630809, 1789542197.461753961]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909558.078823529, 1789542199.464418913]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909564.750603189, 1789542201.467406919]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909571.430010957, 1789542203.471967390]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909578.106920011, 1789542205.472868297]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909584.788502056, 1789542207.479146449]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909591.464542530, 1789542209.479978004]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909598.138115823, 1789542211.482901026]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909604.815601588, 1789542213.487555622]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909611.510354389, 1789542215.494896464]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+[0m[INFO] [1790909618.179466925, 1789542217.495805762]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909624.862144492, 1789542219.498635743]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909631.546278886, 1789542221.502572098]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909638.208053750, 1789542223.504613763]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909644.909912799, 1789542225.513266888]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909651.600842957, 1789542227.520106578]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909658.271158966, 1789542229.523330563]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909664.946229322, 1789542231.525845291]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909671.618902904, 1789542233.527857737]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909678.289734562, 1789542235.528698654]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909684.967009059, 1789542237.531911477]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909691.640857506, 1789542239.532412537]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909698.320515978, 1789542241.538731651]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909704.996095627, 1789542243.541395280]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909711.670712040, 1789542245.543113481]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909718.334979831, 1789542247.543541383]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909725.012962371, 1789542249.545062514]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909731.684747299, 1789542251.546576489]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909738.365455259, 1789542253.550204380]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909745.038271758, 1789542255.553684179]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909751.726797860, 1789542257.558766769]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+[0m[INFO] [1790909758.394928184, 1789542259.560446813]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909765.069278566, 1789542261.563715778]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909771.738629830, 1789542263.564263030]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909778.421848406, 1789542265.567389728]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909785.111808310, 1789542267.572039376]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909791.773587981,[0m[INFO] [1790909521.529083336]: [1;32m---->[0m Transform Fusion Started.[0m
+terminate called after throwing an instance of 'pcl::IOException'
+  what():  : [pcl::PCDWriter::writeASCII] Input point cloud has no data!
+ 1789542269.573396866]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909798.447760673, 1789542271.575751375]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909805.133479949, 1789542273.581206769]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+[0m[INFO] [1790909811.817872599, 1789542275.586870828]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909818.497111682, 1789542277.590434994]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909825.179163254, 1789542279.593261125]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909831.853910234, 1789542281.596841338]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909838.543971307, 1789542283.603990565]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1790909845.230726346, 1789542285.607862936]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+[0m[INFO] [1790909521.217800126]: [1;32m---->[0m Image Projection Started.[0m
+... logging to /home/lego/.ros/log/10de1f58-be06-11f1-8032-c9da561a41ad/roslaunch-lego-VirtualBox-3643.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/lego/catkin_ws/src/LeGO-LOAM/LeGO-LOAM/launch/run.launch
+[1mstarted roslaunch server http://lego-VirtualBox:39583/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+ * /use_sim_time: True
+
+NODES
+  /
+    base_link_to_camera (tf/static_transform_publisher)
+    camera_init_to_map (tf/static_transform_publisher)
+    featureAssociation (lego_loam/featureAssociation)
+    imageProjection (lego_loam/imageProjection)
+    mapOptmization (lego_loam/mapOptmization)
+    transformFusion (lego_loam/transformFusion)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/lego/catkin_ws/src/LeGO-LOAM/LeGO-LOAM/launch/run.launch http://localhost:11311
+[1mprocess[camera_init_to_map-1]: started with pid [3684][0m
+[1mprocess[base_link_to_camera-2]: started with pid [3685][0m
+[1mprocess[imageProjection-3]: started with pid [3687][0m
+[1mprocess[featureAssociation-4]: started with pid [3691][0m
+[1mprocess[mapOptmization-5]: started with pid [3701][0m
+[1mprocess[transformFusion-6]: started with pid [3703][0m
+[featureAssociation-4] killing on exit
+[transformFusion-6] killing on exit
+[imageProjection-3] killing on exit
+[base_link_to_camera-2] killing on exit
+[mapOptmization-5] killing on exit
+[camera_init_to_map-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

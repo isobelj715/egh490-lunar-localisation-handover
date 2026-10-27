@@ -1,0 +1,8 @@
+Recording run 'L3'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/ellipse1_lim/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 182 est poses -> results/testbed/ellipse1_lim/est_raw_L3.txt  (2.5 Hz over 72.3 s, 60.31 m)
+Saved metadata -> results/testbed/ellipse1_lim/meta_L3.json

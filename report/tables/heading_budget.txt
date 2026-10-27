@@ -1,0 +1,120 @@
+
+ref  results/testbed/september_lim/est_raw_L0.txt
+est  results/testbed/september_lim_m0f10/est_raw_L3.txt
+  247 poses over 98.3 s, forward axis 'z', vertical 'y'
+  path of the reference 31.34 m, furthest from start 13.38 m
+  heading error at the end 15.2°, worst 47.6°
+
+position error, metres
+
+                             at the end      worst
+----------------------------------------------------
+as recorded                        3.08       4.21
+with heading corrected             4.92       4.92
+explained by heading               -60%
+
+where it stands through the run
+
+                 t         dist  as recorded  corrected
+     25%    24.3 s       7.94 m       1.03 m      0.47 m
+     50%    49.1 s      11.28 m       1.17 m      0.69 m
+     75%    73.5 s       4.50 m       0.30 m      0.93 m
+     90%    88.3 s       2.62 m       2.91 m      1.12 m
+    100%    98.3 s       5.29 m       3.08 m      4.92 m
+
+  Heading explains essentially none of it. The error is translational.
+
+  Kinematic counterfactual, not a re-run: correcting the heading would also
+  have changed which correspondences the matcher chose next, so a real gyro
+  would do better than this figure. Quote it as the share of the recorded
+  error attributable to heading.
+
+ref  results/testbed/rectangle_lim/est_raw_L0.txt
+est  results/testbed/rectangle_lim_m0f10/est_raw_L3.txt
+  256 poses over 102.3 s, forward axis 'z', vertical 'y'
+  path of the reference 23.49 m, furthest from start 11.11 m
+  heading error at the end -185.2°, worst -186.1°
+
+position error, metres
+
+                             at the end      worst
+----------------------------------------------------
+as recorded                        4.16      14.58
+with heading corrected            10.24      10.32
+explained by heading              -146%
+
+where it stands through the run
+
+                 t         dist  as recorded  corrected
+     25%    25.3 s       4.31 m       4.70 m      7.70 m
+     50%    50.9 s       9.98 m       8.56 m      4.09 m
+     75%    76.7 s       4.02 m       8.97 m      9.47 m
+     90%    91.9 s       1.10 m       4.72 m      9.79 m
+    100%   102.3 s       1.10 m       4.16 m     10.24 m
+
+  Heading explains essentially none of it. The error is translational.
+
+  Kinematic counterfactual, not a re-run: correcting the heading would also
+  have changed which correspondences the matcher chose next, so a real gyro
+  would do better than this figure. Quote it as the share of the recorded
+  error attributable to heading.
+
+ref  results/testbed/ellipse1_lim/est_raw_L0.txt
+est  results/testbed/ellipse1_lim_m0f10/est_raw_L3.txt
+  182 poses over 72.3 s, forward axis 'z', vertical 'y'
+  path of the reference 17.44 m, furthest from start 8.19 m
+  heading error at the end -36.4°, worst -38.2°
+
+position error, metres
+
+                             at the end      worst
+----------------------------------------------------
+as recorded                        3.34       3.44
+with heading corrected             4.27       4.37
+explained by heading               -28%
+
+where it stands through the run
+
+                 t         dist  as recorded  corrected
+     25%    17.8 s       0.04 m       0.50 m      0.51 m
+     50%    35.8 s       7.88 m       0.74 m      1.30 m
+     75%    53.8 s       0.18 m       1.03 m      1.14 m
+     90%    64.7 s       1.22 m       1.94 m      2.95 m
+    100%    72.3 s       1.22 m       3.34 m      4.27 m
+
+  Heading explains essentially none of it. The error is translational.
+
+  Kinematic counterfactual, not a re-run: correcting the heading would also
+  have changed which correspondences the matcher chose next, so a real gyro
+  would do better than this figure. Quote it as the share of the recorded
+  error attributable to heading.
+
+ref  results/testbed/zigzag_lim/est_raw_L0.txt
+est  results/testbed/zigzag_lim_m0f10/est_raw_L3.txt
+  142 poses over 56.6 s, forward axis 'z', vertical 'y'
+  path of the reference 10.93 m, furthest from start 10.89 m
+  heading error at the end -1.0°, worst 31.4°
+
+position error, metres
+
+                             at the end      worst
+----------------------------------------------------
+as recorded                        0.42       3.01
+with heading corrected             0.31       3.21
+explained by heading                26%
+
+where it stands through the run
+
+                 t         dist  as recorded  corrected
+     25%    14.0 s       0.01 m       0.02 m      0.02 m
+     50%    28.0 s       3.98 m       0.24 m      0.58 m
+     75%    42.0 s       9.79 m       2.29 m      2.44 m
+     90%    50.4 s      10.89 m       0.83 m      0.56 m
+    100%    56.4 s      10.89 m       0.42 m      0.31 m
+
+  Heading is a minor contributor. Most of this error is not rotational.
+
+  Kinematic counterfactual, not a re-run: correcting the heading would also
+  have changed which correspondences the matcher chose next, so a real gyro
+  would do better than this figure. Quote it as the share of the recorded
+  error attributable to heading.

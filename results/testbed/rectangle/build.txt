@@ -1,0 +1,3 @@
+brake on (eignThre 10/100)
+run=rectangle bag=rectangle_2026-10-07-06-53-20.bag rate=0.3
+built 2026-10-02 15:18, verified by brake.sh

@@ -1,0 +1,8 @@
+Recording run 'rectangle'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/newruns/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 258 est poses -> results/testbed/newruns/est_raw_rectangle.txt  (2.5 Hz over 102.8 s, 38.16 m)
+Saved metadata -> results/testbed/newruns/meta_rectangle.json

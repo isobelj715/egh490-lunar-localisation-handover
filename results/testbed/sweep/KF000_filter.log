@@ -1,0 +1,3 @@
+[INFO] [1790751132.610382, 0.000000]: filter_walls dial: keep_fraction=0.000 keep_sector_deg=360.0 (centre 0.0) seed=1
+[INFO] [1790751132.611395, 0.000000]: filter_walls running; remap ~input and ~output
+[INFO] [1790751248.442010, 1789542287.091398]: filter_walls summary: 327 scans | dial keep_fraction=0.000 keep_sector_deg=360.0 seed=1 | wall points 37.0% of cloud | wall points retained 0.0% | total removed 37.0% +/- 4.5%

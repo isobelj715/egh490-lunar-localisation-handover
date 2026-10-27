@@ -1,0 +1,8 @@
+Recording run 'L3'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/rectangle_lim_m0f10/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 255 est poses -> results/testbed/rectangle_lim_m0f10/est_raw_L3.txt  (2.5 Hz over 101.6 s, 67.96 m)
+Saved metadata -> results/testbed/rectangle_lim_m0f10/meta_L3.json

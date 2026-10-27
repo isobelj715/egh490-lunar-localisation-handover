@@ -1,0 +1,5 @@
+run,L0 fires [%],L1 fires [%],L2 fires [%],L3 fires [%]
+september,0.0,0.0,100.0,100.0
+rectangle,0.0,0.0,100.0,100.0
+ellipse1,0.0,0.0,100.0,100.0
+zigzag,0.0,0.0,100.0,100.0

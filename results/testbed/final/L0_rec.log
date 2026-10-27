@@ -1,0 +1,8 @@
+Recording run 'L0'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/final/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 249 est poses -> results/testbed/final/est_raw_L0.txt  (2.5 Hz over 99.3 s, 44.89 m)
+Saved metadata -> results/testbed/final/meta_L0.json

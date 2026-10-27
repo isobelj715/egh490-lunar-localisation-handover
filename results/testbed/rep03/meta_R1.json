@@ -1,0 +1,13 @@
+{
+  "run": "R1",
+  "gt_topic": "/ground_truth/state",
+  "est_topic": "/aft_mapped_to_init",
+  "git_sha": "d530a74f163d161e20aa040529e9afa68e1a528e",
+  "trajectory": "R1",
+  "note": "repeat 1, keep_fraction=1.00, rate=0.3",
+  "gt_poses": 0,
+  "est_poses": 202,
+  "est_duration_s": 88.175,
+  "est_rate_hz": 2.28,
+  "est_path_len_m": 41.7884
+}

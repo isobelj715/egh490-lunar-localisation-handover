@@ -1,0 +1,174 @@
+
+september_lim: separation from the unfiltered pass, by time travelled
+
+series                       at 25%   at 50%   at 75%    final     peak      at  file
+-------------------------------------------------------------------------------------
+L3 threshold removed          1.123    1.109    0.357    3.076    4.052   92.5s  results/testbed/september_lim_m0f10/est_raw_L3.txt
+  ! L2: no threshold-removed pass (tried m0f10, m10f10, m0f0, nobrake)
+
+wrote report_v2/figs/growth_september_lim.png
+
+Grey bands are where the rover is stationary, taken from the baseline. True
+displacement there is zero, so a curve that climbs inside a band is error you
+can state without any reference trajectory at all -- and the height of the
+left-hand band should match that run's opening value in parked_bars.py.
+
+
+
+The right-hand endpoint should match brake_effect.py for the same run and
+level, because it is the same measurement at the same instant.
+
+MIND THE GAP BETWEEN "final" AND "peak". Every headline number in this
+campaign is the value at the end of the run, which is a convention, not a
+worst case. Where peak is several times final, the curve wandered and the
+endpoint caught it on the way down -- quote both, or quote the peak and say
+so. A reader looking at the figure will see the peak whatever the table says.
+
+READING THE SHAPE. A curve that rises steadily with distance is accumulating
+bias. A curve that steps once and then runs flat took its error in a single
+event -- look at what happened at that distance rather than blaming the drive
+as a whole. A curve that stays flat all run is not accumulating at all, which
+is the claim worth making about level 2 and cannot be shown with endpoints.
+
+Do NOT convert these to a percentage of path length. That framing assumes the
+error grows with distance, which is the very thing this figure tests -- and in
+this campaign the longest run is not the worst.
+
+rectangle_lim: separation from the unfiltered pass, by time travelled
+
+series                       at 25%   at 50%   at 75%    final     peak      at  file
+-------------------------------------------------------------------------------------
+L2 threshold removed          0.159    0.104    0.255    0.089    0.411   60.5s  results/testbed/rectangle_lim_m0f10/est_raw_L2.txt
+L3 threshold removed          4.592    8.582    9.011    4.159   14.457   42.8s  results/testbed/rectangle_lim_m0f10/est_raw_L3.txt
+
+wrote report_v2/figs/growth_rectangle_lim.png
+
+Grey bands are where the rover is stationary, taken from the baseline. True
+displacement there is zero, so a curve that climbs inside a band is error you
+can state without any reference trajectory at all -- and the height of the
+left-hand band should match that run's opening value in parked_bars.py.
+
+
+
+The right-hand endpoint should match brake_effect.py for the same run and
+level, because it is the same measurement at the same instant.
+
+MIND THE GAP BETWEEN "final" AND "peak". Every headline number in this
+campaign is the value at the end of the run, which is a convention, not a
+worst case. Where peak is several times final, the curve wandered and the
+endpoint caught it on the way down -- quote both, or quote the peak and say
+so. A reader looking at the figure will see the peak whatever the table says.
+
+READING THE SHAPE. A curve that rises steadily with distance is accumulating
+bias. A curve that steps once and then runs flat took its error in a single
+event -- look at what happened at that distance rather than blaming the drive
+as a whole. A curve that stays flat all run is not accumulating at all, which
+is the claim worth making about level 2 and cannot be shown with endpoints.
+
+Do NOT convert these to a percentage of path length. That framing assumes the
+error grows with distance, which is the very thing this figure tests -- and in
+this campaign the longest run is not the worst.
+
+ellipse1_lim: separation from the unfiltered pass, by time travelled
+
+series                       at 25%   at 50%   at 75%    final     peak      at  file
+-------------------------------------------------------------------------------------
+L2 threshold removed          0.019    0.054    0.036    0.031    0.274   53.2s  results/testbed/ellipse1_lim_m0f10/est_raw_L2.txt
+L3 threshold removed          0.269    0.759    0.795    3.338    3.382   70.1s  results/testbed/ellipse1_lim_m0f10/est_raw_L3.txt
+
+wrote report_v2/figs/growth_ellipse1_lim.png
+
+Grey bands are where the rover is stationary, taken from the baseline. True
+displacement there is zero, so a curve that climbs inside a band is error you
+can state without any reference trajectory at all -- and the height of the
+left-hand band should match that run's opening value in parked_bars.py.
+
+
+
+The right-hand endpoint should match brake_effect.py for the same run and
+level, because it is the same measurement at the same instant.
+
+MIND THE GAP BETWEEN "final" AND "peak". Every headline number in this
+campaign is the value at the end of the run, which is a convention, not a
+worst case. Where peak is several times final, the curve wandered and the
+endpoint caught it on the way down -- quote both, or quote the peak and say
+so. A reader looking at the figure will see the peak whatever the table says.
+
+READING THE SHAPE. A curve that rises steadily with distance is accumulating
+bias. A curve that steps once and then runs flat took its error in a single
+event -- look at what happened at that distance rather than blaming the drive
+as a whole. A curve that stays flat all run is not accumulating at all, which
+is the claim worth making about level 2 and cannot be shown with endpoints.
+
+Do NOT convert these to a percentage of path length. That framing assumes the
+error grows with distance, which is the very thing this figure tests -- and in
+this campaign the longest run is not the worst.
+
+zigzag_lim: separation from the unfiltered pass, by time travelled
+
+series                       at 25%   at 50%   at 75%    final     peak      at  file
+-------------------------------------------------------------------------------------
+L2 threshold removed          0.031    0.133    0.058    0.102    0.217   24.0s  results/testbed/zigzag_lim_m0f10/est_raw_L2.txt
+L3 threshold removed          0.021    0.211    2.256    0.373    2.990   35.2s  results/testbed/zigzag_lim_m0f10/est_raw_L3.txt
+
+wrote report_v2/figs/growth_zigzag_lim.png
+
+Grey bands are where the rover is stationary, taken from the baseline. True
+displacement there is zero, so a curve that climbs inside a band is error you
+can state without any reference trajectory at all -- and the height of the
+left-hand band should match that run's opening value in parked_bars.py.
+
+
+
+The right-hand endpoint should match brake_effect.py for the same run and
+level, because it is the same measurement at the same instant.
+
+MIND THE GAP BETWEEN "final" AND "peak". Every headline number in this
+campaign is the value at the end of the run, which is a convention, not a
+worst case. Where peak is several times final, the curve wandered and the
+endpoint caught it on the way down -- quote both, or quote the peak and say
+so. A reader looking at the figure will see the peak whatever the table says.
+
+READING THE SHAPE. A curve that rises steadily with distance is accumulating
+bias. A curve that steps once and then runs flat took its error in a single
+event -- look at what happened at that distance rather than blaming the drive
+as a whole. A curve that stays flat all run is not accumulating at all, which
+is the claim worth making about level 2 and cannot be shown with endpoints.
+
+Do NOT convert these to a percentage of path length. That framing assumes the
+error grows with distance, which is the very thing this figure tests -- and in
+this campaign the longest run is not the worst.
+
+september_v2: separation from the unfiltered pass, by time travelled
+
+series                       at 25%   at 50%   at 75%    final     peak      at  file
+-------------------------------------------------------------------------------------
+L2 threshold removed          0.077    0.073    0.018    0.066    0.138   30.8s  results/testbed/september_v2_m0f10/est_raw_L2.txt
+
+wrote report_v2/figs/growth_september_L2.png
+
+Grey bands are where the rover is stationary, taken from the baseline. True
+displacement there is zero, so a curve that climbs inside a band is error you
+can state without any reference trajectory at all -- and the height of the
+left-hand band should match that run's opening value in parked_bars.py.
+
+
+
+The right-hand endpoint should match brake_effect.py for the same run and
+level, because it is the same measurement at the same instant.
+
+MIND THE GAP BETWEEN "final" AND "peak". Every headline number in this
+campaign is the value at the end of the run, which is a convention, not a
+worst case. Where peak is several times final, the curve wandered and the
+endpoint caught it on the way down -- quote both, or quote the peak and say
+so. A reader looking at the figure will see the peak whatever the table says.
+
+READING THE SHAPE. A curve that rises steadily with distance is accumulating
+bias. A curve that steps once and then runs flat took its error in a single
+event -- look at what happened at that distance rather than blaming the drive
+as a whole. A curve that stays flat all run is not accumulating at all, which
+is the claim worth making about level 2 and cannot be shown with endpoints.
+
+Do NOT convert these to a percentage of path length. That framing assumes the
+error grows with distance, which is the very thing this figure tests -- and in
+this campaign the longest run is not the worst.

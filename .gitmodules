@@ -1,0 +1,4 @@
+[submodule "src/LeGO-LOAM"]
+	path = src/LeGO-LOAM
+	url = git@github.com:isobelj715/LeGO-LOAM.git
+	branch = egh490

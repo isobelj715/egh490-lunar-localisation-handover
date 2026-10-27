@@ -1,0 +1,50 @@
+
+reported displacement while parked [m] -- true value is zero
+
+run         condition               open     @75%      max  close     @75%      max
+-----------------------------------------------------------------------------------
+rectangle_lim L0 control              15s    0.006    0.007   14s    0.002    0.005
+rectangle_lim L0 stock                15s    0.006    0.007   14s    0.002    0.005
+rectangle_lim L0 threshold removed    15s    0.006    0.007   14s    0.002    0.005
+rectangle_lim L1 stock                15s    0.007    0.008   14s    0.002    0.006
+rectangle_lim L2 stock                15s    0.626    0.853   14s    0.025    0.256
+rectangle_lim L2 threshold removed    15s    0.030    0.063   14s    0.077    0.136
+rectangle_lim L3 stock                15s    1.193    1.828   14s    2.952    3.685
+rectangle_lim L3 threshold removed    15s    0.047    0.093   14s    0.096    0.864
+
+ellipse1_lim L0 control              17s    0.005    0.006   15s    0.003    0.004
+ellipse1_lim L0 stock                17s    0.005    0.006   15s    0.003    0.004
+ellipse1_lim L0 threshold removed    17s    0.005    0.006   15s    0.003    0.004
+ellipse1_lim L1 stock                17s    0.005    0.007   15s    0.004    0.006
+ellipse1_lim L2 stock                17s    0.774    1.066   15s    0.581    0.884
+ellipse1_lim L2 threshold removed    17s    0.035    0.103   15s    0.020    0.055
+ellipse1_lim L3 stock                17s    2.959    5.370   15s    9.576    9.867
+ellipse1_lim L3 threshold removed    17s    0.121    0.158   15s    2.316    3.354
+
+zigzag_lim  L0 control              14s    0.004    0.007   10s    0.002    0.006
+zigzag_lim  L0 stock                14s    0.004    0.007   10s    0.002    0.006
+zigzag_lim  L0 threshold removed    14s    0.004    0.007   10s    0.002    0.006
+zigzag_lim  L1 stock                14s    0.002    0.007   10s    0.003    0.007
+zigzag_lim  L2 stock                14s    0.215    0.290   10s    0.164    0.200
+zigzag_lim  L2 threshold removed    14s    0.038    0.053   10s    0.024    0.030
+zigzag_lim  L3 stock                14s    0.001    0.002   10s    7.480    9.118
+zigzag_lim  L3 threshold removed    14s    0.054    0.085   10s    1.499    1.567
+  ! september_lim: no stationary stretch of 4.0 s at either end -- 99 s long, first motion 5.2 s, last 94.5 s, median speed 0.499 m/s, 90% of samples above --speed 0.05. If the median is near --speed the window detector is seeing noise, not motion: raise --speed. If first motion is at 0 s and last is at the end, the recording was trimmed to the drive and has no parked window to measure.
+
+wrote report_v2/figs/parked_close.png
+
+open / close      length of each stationary window, found from that run's own
+                  unfiltered L0 pass and backed off 1.5 s from the motion
+@75               displacement that far through the window -- not the max,
+                  which catches the rover pulling away
+max               largest displacement anywhere in the window
+
+The L0 row is the control: if it reads millimetres, the window really was
+still, and every larger number in that run is error owing nothing to a
+reference trajectory.
+
+Read the two halves against each other. A closing window far worse than the
+opening one means the error is not a startup transient -- it is still being
+accumulated at the end of the drive, by which point the map itself is wrong.
+Quote the opening window on a slide, because the L0 control makes it airtight,
+and quote the closing window when asked whether it stays that good.

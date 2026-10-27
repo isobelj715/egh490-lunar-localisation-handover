@@ -1,0 +1,105 @@
+
+baseline  results/testbed/september_lim/est_raw_L0.txt
+  spread   x 13.59  y 1.07  z 12.37 m
+  vertical 'y' (smallest spread), ground plane x-z
+  !! 1.07 m of vertical motion is a lot for flat sand. If the
+     plane detection is wrong these paths are a projection of
+     the wrong two axes -- check with check_vertical.py first.
+
+wrote report_v2/figs/tile_september_L3_stock.png
+
+run                             poses   dur[s]   pathlen    final     peak   t>0.50m
+------------------------------------------------------------------------------------
+unfiltered (L0)                   249     99.3     44.68    0.000    0.000        --
+level 3, stock                    248     99.3     67.85    2.951   20.700       5.2
+
+pathlen   distance travelled by the ESTIMATE. The rover's true path length is
+          the same in every row, so a departure from the reference's value is
+          itself an error: above means the pose is wandering, below means
+          motion is being under-estimated.
+final     separation from the reference at the last shared timestamp
+peak      the worst separation anywhere in the run
+t>thr     when it first lost tracking
+
+Read the paths, not just the numbers. Once a run is tens of times the 0.012 m
+noise floor its final separation is a lottery -- it depends on which way the
+divergence happened to be pointing when the bag ended, not on the algorithm.
+`t>thr` and the SHAPE of the departure are what stay meaningful.
+
+baseline  results/testbed/rectangle_lim/est_raw_L0.txt
+  spread   x 12.14  y 1.16  z 12.22 m
+  vertical 'y' (smallest spread), ground plane x-z
+  !! 1.16 m of vertical motion is a lot for flat sand. If the
+     plane detection is wrong these paths are a projection of
+     the wrong two axes -- check with check_vertical.py first.
+
+wrote report_v2/figs/tile_rectangle_L3_stock.png
+
+run                             poses   dur[s]   pathlen    final     peak   t>0.50m
+------------------------------------------------------------------------------------
+unfiltered (L0)                   258    102.9     37.84    0.000    0.000        --
+level 3, stock                    257    102.8     59.69    4.288   10.689       4.7
+
+pathlen   distance travelled by the ESTIMATE. The rover's true path length is
+          the same in every row, so a departure from the reference's value is
+          itself an error: above means the pose is wandering, below means
+          motion is being under-estimated.
+final     separation from the reference at the last shared timestamp
+peak      the worst separation anywhere in the run
+t>thr     when it first lost tracking
+
+Read the paths, not just the numbers. Once a run is tens of times the 0.012 m
+noise floor its final separation is a lottery -- it depends on which way the
+divergence happened to be pointing when the bag ended, not on the algorithm.
+`t>thr` and the SHAPE of the departure are what stay meaningful.
+
+baseline  results/testbed/ellipse1_lim/est_raw_L0.txt
+  spread   x 7.62  y 0.39  z 5.91 m
+  vertical 'y' (smallest spread), ground plane x-z
+
+wrote report_v2/figs/tile_ellipse1_L3_stock.png
+
+run                             poses   dur[s]   pathlen    final     peak   t>0.50m
+------------------------------------------------------------------------------------
+unfiltered (L0)                   183     72.9     21.42    0.000    0.000        --
+level 3, stock                    182     72.5     59.76   10.473   19.554       4.4
+
+pathlen   distance travelled by the ESTIMATE. The rover's true path length is
+          the same in every row, so a departure from the reference's value is
+          itself an error: above means the pose is wandering, below means
+          motion is being under-estimated.
+final     separation from the reference at the last shared timestamp
+peak      the worst separation anywhere in the run
+t>thr     when it first lost tracking
+
+Read the paths, not just the numbers. Once a run is tens of times the 0.012 m
+noise floor its final separation is a lottery -- it depends on which way the
+divergence happened to be pointing when the bag ended, not on the algorithm.
+`t>thr` and the SHAPE of the departure are what stay meaningful.
+
+baseline  results/testbed/zigzag_lim/est_raw_L0.txt
+  spread   x 8.91  y 0.60  z 6.26 m
+  vertical 'y' (smallest spread), ground plane x-z
+  !! 0.60 m of vertical motion is a lot for flat sand. If the
+     plane detection is wrong these paths are a projection of
+     the wrong two axes -- check with check_vertical.py first.
+
+wrote report_v2/figs/tile_zigzag_L3_stock.png
+
+run                             poses   dur[s]   pathlen    final     peak   t>0.50m
+------------------------------------------------------------------------------------
+unfiltered (L0)                   143     56.8     12.81    0.000    0.000        --
+level 3, stock                    141     56.8     35.46    1.735   10.510      18.0
+
+pathlen   distance travelled by the ESTIMATE. The rover's true path length is
+          the same in every row, so a departure from the reference's value is
+          itself an error: above means the pose is wandering, below means
+          motion is being under-estimated.
+final     separation from the reference at the last shared timestamp
+peak      the worst separation anywhere in the run
+t>thr     when it first lost tracking
+
+Read the paths, not just the numbers. Once a run is tens of times the 0.012 m
+noise floor its final separation is a lottery -- it depends on which way the
+divergence happened to be pointing when the bag ended, not on the algorithm.
+`t>thr` and the SHAPE of the departure are what stay meaningful.

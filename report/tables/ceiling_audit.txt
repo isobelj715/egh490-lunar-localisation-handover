@@ -1,0 +1,181 @@
+=== rectangle
+reading rectangle_level3.bag
+reading rectangle_lim_level3.bag
+
+clouds: original 1029, ceilinged 1029, paired by stamp 1029
+
+================================================================
+WHOLE RUN
+================================================================
+points in original    : 21793117  (21179 per cloud)
+removed by the ceiling: 99825  (0.458% of points, 97.0 per cloud)
+  !! 97 points in the ceilinged bag are NOT in the original --
+     the two bags were not cropped from the same input
+
+removed points by range from the sensor:
+   0-5 m           39     0.0%
+   5-10 m        8006     8.0%
+   10-13 m      12198    12.2%
+   13-18 m      78516    78.7%
+   >18 m         1066     1.1%
+
+through the run (tenths of the recording):
+      t [s] removed/cloud  within 10 m/cloud
+        0.0          5.2                4.0
+       10.3          6.3                2.5
+       20.6         96.4                0.0
+       30.9        458.3                0.0
+       41.2        269.1                5.1
+       51.4         31.6                0.3
+       61.7         35.6               25.6
+       72.0         41.9               38.3
+       82.3         16.4                2.2
+       92.6         10.9                0.0
+
+================================================================
+VERDICT
+================================================================
+8045 points within 10 m were removed (7.82 per cloud, 0.0369% of
+all points). Their height in the sensor frame: p50 +0.00 m,
+p90 +0.33 m, max +1.85 m. The sensor is 0.652 m above the sand,
+so points near -0.4 m are ~0.25 m above the sand: rock tops or
+mound crests. Check WHEN in the run they were removed (table
+above): a block of them while the rover is on low ground means
+the map-frame ceiling cut terrain that sits higher than the start.
+
+Whether it matters depends on the count: a few points per cloud
+out of ~20,000 is negligible for lambda_min; hundreds is not.
+=== ellipse1
+reading ellipse1_level3.bag
+reading ellipse1_lim_level3.bag
+
+clouds: original 729, ceilinged 729, paired by stamp 729
+
+================================================================
+WHOLE RUN
+================================================================
+points in original    : 14333611  (19662 per cloud)
+removed by the ceiling: 42603  (0.297% of points, 58.4 per cloud)
+
+removed points by range from the sensor:
+   0-5 m            0     0.0%
+   5-10 m         328     0.8%
+   10-13 m       8915    20.9%
+   13-18 m      33215    78.0%
+   >18 m          145     0.3%
+
+through the run (tenths of the recording):
+      t [s] removed/cloud  within 10 m/cloud
+        0.0         43.0                0.0
+        7.3         42.8                0.0
+       14.6         86.4                0.0
+       21.9         83.5                3.7
+       29.1          0.1                0.0
+       36.4          0.2                0.0
+       43.7         22.0                0.0
+       51.0        202.8                0.8
+       58.3         51.3                0.0
+       65.6         51.5                0.0
+
+================================================================
+VERDICT
+================================================================
+328 points within 10 m were removed (0.45 per cloud, 0.0023% of
+all points). Their height in the sensor frame: p50 +1.61 m,
+p90 +1.84 m, max +1.85 m. The sensor is 0.652 m above the sand,
+so points near -0.4 m are ~0.25 m above the sand: rock tops or
+mound crests. Check WHEN in the run they were removed (table
+above): a block of them while the rover is on low ground means
+the map-frame ceiling cut terrain that sits higher than the start.
+
+Whether it matters depends on the count: a few points per cloud
+out of ~20,000 is negligible for lambda_min; hundreds is not.
+=== zigzag
+reading zigzag_level3.bag
+reading zigzag_lim_level3.bag
+
+clouds: original 575, ceilinged 575, paired by stamp 575
+
+================================================================
+WHOLE RUN
+================================================================
+points in original    : 12235877  (21280 per cloud)
+removed by the ceiling: 33012  (0.270% of points, 57.4 per cloud)
+
+removed points by range from the sensor:
+   0-5 m            0     0.0%
+   5-10 m          74     0.2%
+   10-13 m       6296    19.1%
+   13-18 m      26639    80.7%
+   >18 m            3     0.0%
+
+through the run (tenths of the recording):
+      t [s] removed/cloud  within 10 m/cloud
+        0.0         62.8                0.0
+        5.7         61.6                0.0
+       11.5        133.5                0.0
+       17.2        177.2                0.0
+       23.0         79.4                0.0
+       28.7         59.8                1.3
+       34.5          0.1                0.0
+       40.2          0.0                0.0
+       46.0          0.0                0.0
+       51.7          0.0                0.0
+
+================================================================
+VERDICT
+================================================================
+74 points within 10 m were removed (0.13 per cloud, 0.0006% of
+all points). Their height in the sensor frame: p50 +1.62 m,
+p90 +1.80 m, max +1.85 m. The sensor is 0.652 m above the sand,
+so points near -0.4 m are ~0.25 m above the sand: rock tops or
+mound crests. Check WHEN in the run they were removed (table
+above): a block of them while the rover is on low ground means
+the map-frame ceiling cut terrain that sits higher than the start.
+
+Whether it matters depends on the count: a few points per cloud
+out of ~20,000 is negligible for lambda_min; hundreds is not.
+reading level3.bag
+reading september_lim_level3.bag
+
+clouds: original 995, ceilinged 995, paired by stamp 995
+
+================================================================
+WHOLE RUN
+================================================================
+points in original    : 24975850  (25101 per cloud)
+removed by the ceiling: 104505  (0.418% of points, 105.0 per cloud)
+
+removed points by range from the sensor:
+   0-5 m        30626    29.3%
+   5-10 m       13317    12.7%
+   10-13 m       3178     3.0%
+   13-18 m      32132    30.7%
+   >18 m        25252    24.2%
+
+through the run (tenths of the recording):
+      t [s] removed/cloud  within 10 m/cloud
+        0.0        133.7               98.3
+        9.9         46.6               46.6
+       19.9         22.5               11.8
+       29.8          9.1                0.0
+       39.8          9.2                0.2
+       49.7         20.4                0.0
+       59.7         42.1               29.1
+       69.6        602.3               98.2
+       79.6        123.1              118.6
+       89.5         38.6               38.6
+
+================================================================
+VERDICT
+================================================================
+43943 points within 10 m were removed (44.16 per cloud, 0.1759% of
+all points). Their height in the sensor frame: p50 +0.33 m,
+p90 +0.81 m, max +1.58 m. The sensor is 0.652 m above the sand,
+so points near -0.4 m are ~0.25 m above the sand: rock tops or
+mound crests. Check WHEN in the run they were removed (table
+above): a block of them while the rover is on low ground means
+the map-frame ceiling cut terrain that sits higher than the start.
+
+Whether it matters depends on the count: a few points per cloud
+out of ~20,000 is negligible for lambda_min; hundreds is not.

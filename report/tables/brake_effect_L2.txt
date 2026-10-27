@@ -1,0 +1,19 @@
+
+error at end of run, level L2
+
+run                 stock    corrected    factor   corrected dir
+----------------------------------------------------------------
+september          3.213 m       0.066 m       49x   results/testbed/september_v2_m0f10/est_raw_L2.txt
+rectangle_lim      8.016 m       0.089 m       90x   rectangle_lim_m0f10
+ellipse1_lim       5.602 m       0.031 m      178x   ellipse1_lim_m0f10
+zigzag_lim         3.987 m       0.102 m       39x   zigzag_lim_m0f10
+
+wrote report_v2/figs/brake_effect_L2.png
+
+Measured against each run's own unfiltered pass, so these are lower bounds on
+absolute error -- the bound applies equally to both bars, which is what the
+comparison needs.
+
+Check the "corrected dir" column before using the figure. The naming drifted
+across the campaign and a run paired with the wrong build would look like a
+result.

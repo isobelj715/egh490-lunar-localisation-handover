@@ -1,0 +1,8 @@
+Recording run 'KF000'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/sweep_l2/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 255 est poses -> results/testbed/sweep_l2/est_raw_KF000.txt  (2.6 Hz over 98.9 s, 44.92 m)
+Saved metadata -> results/testbed/sweep_l2/meta_KF000.json

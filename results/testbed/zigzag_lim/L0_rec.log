@@ -1,0 +1,8 @@
+Recording run 'L0'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/zigzag/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 143 est poses -> results/testbed/zigzag/est_raw_L0.txt  (2.5 Hz over 56.8 s, 12.94 m)
+Saved metadata -> results/testbed/zigzag/meta_L0.json

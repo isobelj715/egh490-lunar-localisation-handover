@@ -1,0 +1,188 @@
+
+ref  results/testbed/september_lim/est_raw_L0.txt
+est  results/testbed/september_lim_m0f10/est_raw_L3.txt
+  249 reference poses, 247 estimate poses in the shared 98.3 s
+  spread  x 13.59  y 1.07  z 12.37 m
+  vertical axis 'y' (smallest spread), ground plane x-z
+  furthest from start 13.38 m; at the END, 5.29 m from start and 3.08 m from the reference
+
+heading error by which body axis is taken as forward
+
+axis        start     final     worst  max step    tilt   shape
+--------------------------------------------------------------------------------------------------------
+body x      -0.0°     15.1°     47.5°     14.4°      2°   SPREAD through the run (25-90% over 59.7 s)
+body y     -25.5°    354.1°    451.6°    148.7°     85°   ONE EVENT (25-90% inside 0.5 s of 98 s)
+body z      -0.0°     15.2°     47.6°     14.5°      3°   SPREAD through the run (25-90% over 59.7 s)
+
+what each candidate implies for position, against what was measured
+
+axis          implied     measured   verdict
+------------------------------------------------------------------------------
+body x         1.39 m       3.08 m   PLAUSIBLE
+body y        10.59 m       3.08 m   REJECT -- lies 85 deg out of the ground plane
+body z         1.40 m       3.08 m   PLAUSIBLE
+
+heading error through the run, body x:
+                 t    heading dist from start
+      0%     0.0 s      -0.0°         0.00 m
+     25%    24.3 s       8.3°         7.94 m
+     50%    49.1 s       2.9°        11.28 m
+     75%    73.5 s       7.3°         4.50 m
+     90%    88.3 s      46.1°         2.62 m
+    100%    98.3 s      15.1°         5.29 m
+
+   biggest single step -14.4° at t=93.5 s, where the rover was 5.28 m from its start
+   a 15° error applied from there implies 0.00 m of position error at the end;
+   3.08 m was measured
+
+READ THE SHAPE COLUMN OF THE SURVIVING AXIS:
+
+  ONE EVENT   the heading went wrong once, early, and everything after is that
+              mistake carried forward. One absolute heading measurement
+              anywhere in the run would recover it -- a sun sensor.
+  SPREAD      the heading drifts continuously. A one-shot fix recovers
+              nothing; this needs continuous aiding -- a gyro.
+  PARTIAL     heading explains some of the position error but not all, so
+              something else is accumulating too.
+
+ref  results/testbed/rectangle_lim/est_raw_L0.txt
+est  results/testbed/rectangle_lim_m0f10/est_raw_L3.txt
+  258 reference poses, 256 estimate poses in the shared 102.3 s
+  spread  x 12.14  y 1.16  z 12.22 m
+  vertical axis 'y' (smallest spread), ground plane x-z
+  furthest from start 11.11 m; at the END, 1.10 m from start and 4.16 m from the reference
+  (a closed loop: it finishes near its start, so at the end a heading error
+   produces little position error -- the implied column below will be small)
+
+heading error by which body axis is taken as forward
+
+axis        start     final     worst  max step    tilt   shape
+--------------------------------------------------------------------------------------------------------
+body x       0.0°   -186.0°   -186.9°     39.2°      2°   SPREAD through the run (25-90% over 77.4 s)
+body y      85.1°    977.4°   1051.2°    156.2°     86°   ONE EVENT (25-90% inside 5.2 s of 102 s)
+body z       0.0°   -185.2°   -186.1°     39.0°      3°   SPREAD through the run (25-90% over 77.4 s)
+
+what each candidate implies for position, against what was measured
+
+axis          implied     measured   verdict
+------------------------------------------------------------------------------
+body x         2.21 m       4.16 m   PLAUSIBLE
+body y         2.21 m       4.16 m   REJECT -- lies 86 deg out of the ground plane
+body z         2.21 m       4.16 m   PLAUSIBLE
+
+heading error through the run, body z:
+                 t    heading dist from start
+      0%     0.0 s       0.0°         0.00 m
+     25%    25.3 s     133.6°         4.31 m
+     50%    50.9 s     -24.0°         9.98 m
+     75%    76.7 s    -111.6°         4.02 m
+     90%    91.9 s    -101.4°         1.10 m
+    100%   102.3 s    -185.2°         1.10 m
+
+   biggest single step 39.0° at t=24.9 s, where the rover was 4.08 m from its start
+   a 185° error applied from there implies 0.00 m of position error at the end;
+   4.16 m was measured
+
+READ THE SHAPE COLUMN OF THE SURVIVING AXIS:
+
+  ONE EVENT   the heading went wrong once, early, and everything after is that
+              mistake carried forward. One absolute heading measurement
+              anywhere in the run would recover it -- a sun sensor.
+  SPREAD      the heading drifts continuously. A one-shot fix recovers
+              nothing; this needs continuous aiding -- a gyro.
+  PARTIAL     heading explains some of the position error but not all, so
+              something else is accumulating too.
+
+ref  results/testbed/ellipse1_lim/est_raw_L0.txt
+est  results/testbed/ellipse1_lim_m0f10/est_raw_L3.txt
+  183 reference poses, 182 estimate poses in the shared 72.3 s
+  spread  x 7.62  y 0.39  z 5.91 m
+  vertical axis 'y' (smallest spread), ground plane x-z
+  furthest from start 8.19 m; at the END, 1.22 m from start and 3.34 m from the reference
+  (a closed loop: it finishes near its start, so at the end a heading error
+   produces little position error -- the implied column below will be small)
+
+heading error by which body axis is taken as forward
+
+axis        start     final     worst  max step    tilt   shape
+--------------------------------------------------------------------------------------------------------
+body x      -0.0°    -36.4°    -38.2°     21.5°      1°   SPREAD through the run (25-90% over 48.8 s)
+body y    -100.5°    617.7°    766.7°    299.6°     89°   PART WAY (25-90% over 40.3 s of 72 s)
+body z      -0.0°    -36.4°    -38.2°     21.4°      1°   SPREAD through the run (25-90% over 48.8 s)
+
+what each candidate implies for position, against what was measured
+
+axis          implied     measured   verdict
+------------------------------------------------------------------------------
+body x         0.76 m       3.34 m   PARTIAL -- heading alone explains only some of the error
+body y         2.43 m       3.34 m   REJECT -- lies 89 deg out of the ground plane
+body z         0.76 m       3.34 m   PARTIAL -- heading alone explains only some of the error
+
+heading error through the run, body z:
+                 t    heading dist from start
+      0%     0.0 s      -0.0°         0.00 m
+     25%    17.8 s      -4.0°         0.04 m
+     50%    35.8 s       9.2°         7.88 m
+     75%    53.8 s       0.5°         0.18 m
+     90%    64.7 s     -16.8°         1.22 m
+    100%    72.3 s     -36.4°         1.22 m
+
+   biggest single step -21.4° at t=21.0 s, where the rover was 1.33 m from its start
+   a 36° error applied from there implies 0.00 m of position error at the end;
+   3.34 m was measured
+
+READ THE SHAPE COLUMN OF THE SURVIVING AXIS:
+
+  ONE EVENT   the heading went wrong once, early, and everything after is that
+              mistake carried forward. One absolute heading measurement
+              anywhere in the run would recover it -- a sun sensor.
+  SPREAD      the heading drifts continuously. A one-shot fix recovers
+              nothing; this needs continuous aiding -- a gyro.
+  PARTIAL     heading explains some of the position error but not all, so
+              something else is accumulating too.
+
+ref  results/testbed/zigzag_lim/est_raw_L0.txt
+est  results/testbed/zigzag_lim_m0f10/est_raw_L3.txt
+  143 reference poses, 142 estimate poses in the shared 56.6 s
+  spread  x 8.91  y 0.60  z 6.26 m
+  vertical axis 'y' (smallest spread), ground plane x-z
+  furthest from start 10.89 m; at the END, 10.89 m from start and 0.42 m from the reference
+
+heading error by which body axis is taken as forward
+
+axis        start     final     worst  max step    tilt   shape
+--------------------------------------------------------------------------------------------------------
+body x      -0.0°     -1.0°     31.5°     12.7°      3°   ONE EVENT (25-90% inside 1.2 s of 56 s)
+body y      87.0°   -361.0°   -565.1°    184.7°     88°   ONE EVENT (25-90% inside 2.0 s of 56 s)
+body z      -0.0°     -1.0°     31.4°     12.7°      1°   ONE EVENT (25-90% inside 1.2 s of 56 s)
+
+what each candidate implies for position, against what was measured
+
+axis          implied     measured   verdict
+------------------------------------------------------------------------------
+body x         0.18 m       0.42 m   PLAUSIBLE
+body y        21.78 m       0.42 m   REJECT -- lies 88 deg out of the ground plane
+body z         0.18 m       0.42 m   PLAUSIBLE
+
+heading error through the run, body x:
+                 t    heading dist from start
+      0%     0.0 s      -0.0°         0.00 m
+     25%    14.0 s      -0.2°         0.01 m
+     50%    28.0 s      -0.2°         3.98 m
+     75%    42.0 s       6.2°         9.79 m
+     90%    50.4 s       1.4°        10.89 m
+    100%    56.4 s      -1.0°        10.89 m
+
+   biggest single step 12.7° at t=32.4 s, where the rover was 5.82 m from its start
+   a 1° error applied from there implies 0.09 m of position error at the end;
+   0.42 m was measured
+
+READ THE SHAPE COLUMN OF THE SURVIVING AXIS:
+
+  ONE EVENT   the heading went wrong once, early, and everything after is that
+              mistake carried forward. One absolute heading measurement
+              anywhere in the run would recover it -- a sun sensor.
+  SPREAD      the heading drifts continuously. A one-shot fix recovers
+              nothing; this needs continuous aiding -- a gyro.
+  PARTIAL     heading explains some of the position error but not all, so
+              something else is accumulating too.

@@ -1,0 +1,48 @@
+
+3 repeats from results/testbed/rep03
+
+repeat    poses   duration       Hz   path len [m]
+R1          202      88.2s     2.29          41.79
+R2          252      98.8s     2.55          44.90
+R3          249      98.9s     2.52          44.87
+   !! coverage differs by 10.7 s across identical runs. The shared window below
+      is set by the shortest of them.
+
+   spread  x 13.63  y 1.10  z 12.40 m -> vertical 'y', ground plane x-z
+
+pairwise separation between IDENTICAL runs, over 88.1 s (440 grid points)
+
+pair              median       p95       max     final
+------------------------------------------------------
+R1 vs R2           0.014     0.136     0.313     0.034
+R1 vs R3           0.011     0.139     0.305     0.029
+R2 vs R3           0.010     0.029     0.051     0.006
+
+   NOISE FLOOR = mean pairwise median separation = 0.012 m
+   over 3 pair(s) of 3 repeats, 88.1 s shared window
+
+   Nothing smaller than this can be attributed to a manipulation, at any
+   number of ablation levels. Quote it with the repeat count, the run it was
+   measured on and the replay rate -- the number alone is not a method.
+
+2 repeats from results/testbed/rep03
+   excluded: R1
+
+repeat    poses   duration       Hz   path len [m]
+R2          252      98.8s     2.55          44.90
+R3          249      98.9s     2.52          44.87
+
+   spread  x 13.63  y 1.05  z 12.35 m -> vertical 'y', ground plane x-z
+
+pairwise separation between IDENTICAL runs, over 98.8 s (493 grid points)
+
+pair              median       p95       max     final
+------------------------------------------------------
+R2 vs R3           0.009     0.027     0.051     0.002
+
+   NOISE FLOOR = mean pairwise median separation = 0.009 m
+   over 1 pair(s) of 2 repeats, 98.8 s shared window
+
+   Nothing smaller than this can be attributed to a manipulation, at any
+   number of ablation levels. Quote it with the repeat count, the run it was
+   measured on and the replay rate -- the number alone is not a method.

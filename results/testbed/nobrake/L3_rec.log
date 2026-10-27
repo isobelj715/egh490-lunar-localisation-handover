@@ -1,0 +1,8 @@
+Recording run 'L3'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/nobrake/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 247 est poses -> results/testbed/nobrake/est_raw_L3.txt  (2.5 Hz over 98.8 s, 64.31 m)
+Saved metadata -> results/testbed/nobrake/meta_L3.json

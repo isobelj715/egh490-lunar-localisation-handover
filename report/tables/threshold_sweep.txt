@@ -1,0 +1,30 @@
+
+rectangle, level L2: error at end of run against the map threshold
+
+  eignThre        error  source       file
+------------------------------------------
+         0      0.089 m  m0f10        results/testbed/rectangle_m0f10/est_raw_L2.txt
+         5      0.084 m  m5f10        results/testbed/rectangle_m5f10/est_raw_L2.txt
+        10      0.098 m  m10f10       results/testbed/rectangle_m10f10/est_raw_L2.txt
+        25      0.918 m  m25f10       results/testbed/rectangle_m25f10/est_raw_L2.txt
+        50      6.566 m  m50f10       results/testbed/rectangle_m50f10/est_raw_L2.txt
+       100      7.925 m  m100f10      results/testbed/rectangle_m100f10/est_raw_L2.txt
+  ! rectangle_m0f0: feature stage at 0, not 10 -- left off the plot so only one thing varies along the axis
+  ! rectangle_m100f0: feature stage at 0, not 10 -- left off the plot so only one thing varies along the axis
+
+scene median lambda_min: 28.4
+below it  (4 points): 0.084 to 0.918 m
+at/above  (2 points): 6.566 to 7.925 m
+
+wrote report_v2/figs/threshold_sweep.png
+
+CHECK THE ENDPOINTS against brake_effect.py for the same run and level. This
+script measures the same way, so the 0 point should equal its "threshold
+removed" bar and the 100 point its stock bar. A disagreement means the sweep
+and the bar chart are not describing the same thing, and that has to be
+settled before either goes on a slide.
+
+Points at or above lambda_min are orange: those are the thresholds that fire.
+The claim is that the transition sits at lambda_min rather than somewhere
+convenient, so what matters is whether the orange and blue points separate
+either side of the dashed line.

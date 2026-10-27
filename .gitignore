@@ -1,0 +1,27 @@
+# catkin build output — regenerate with catkin_make
+/build/
+/devel/
+/install/
+
+# raw recordings and external datasets: see data/README.md
+data/*
+!data/README.md
+*.bag
+*.bag.active
+*.mcap
+rosbag2_*/
+*.pcd
+*.npy
+
+# brake.sh backups
+*.brakebak
+
+# python
+__pycache__/
+*.pyc
+
+# editor / OS
+.vscode/
+*.swp
+*~
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "run": "KF010",
+  "gt_topic": "/ground_truth/state",
+  "est_topic": "/aft_mapped_to_init",
+  "git_sha": "d530a74f163d161e20aa040529e9afa68e1a528e",
+  "trajectory": "KF010",
+  "note": "keep_fraction=0.10",
+  "gt_poses": 0,
+  "est_poses": 158,
+  "est_duration_s": 88.075,
+  "est_rate_hz": 1.78,
+  "est_path_len_m": 39.7877
+}

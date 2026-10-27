@@ -1,0 +1,4 @@
+[WARN] [1790750492.418759, 0.000000]: filter_walls: dial fully open -- walls kept intact. This is the passthrough condition.
+[INFO] [1790750492.417473, 0.000000]: filter_walls dial: keep_fraction=1.000 keep_sector_deg=360.0 (centre 0.0) seed=1
+[INFO] [1790750492.419959, 0.000000]: filter_walls running; remap ~input and ~output
+[INFO] [1790750607.286187, 1789542287.092151]: filter_walls summary: 600 scans | dial keep_fraction=1.000 keep_sector_deg=360.0 seed=1 | wall points 37.3% of cloud | wall points retained 100.0% | total removed 0.0% +/- 0.0%

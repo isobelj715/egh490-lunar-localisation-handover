@@ -1,0 +1,20 @@
+
+median lambda_min of the map stage
+
+run                     L0          L1          L2          L3   L0/L3
+----------------------------------------------------------------------
+september_lim        438.2       387.9        27.3         9.1      48x
+rectangle_lim        376.9       336.1        28.4         6.5      58x
+ellipse1_lim         277.8       262.4        22.3         4.1      67x
+zigzag_lim           363.0       338.2        19.7         2.5     144x
+
+wrote report_v2/figs/lambda_ladder.png
+
+Each point is the median over every scan in that level of that run, so a line is
+one recording and the x-axis is how much of the scene was deleted before it
+was replayed. The same physical drive underlies all four points on a line.
+
+Stock runs only, by default. A brake-off build's lambda_min differs a little,
+because suppressing the update changes the pose and so which correspondences
+get selected -- put both on one axis and you are no longer comparing scenes.
+Pass those directories by name if you want them anyway.

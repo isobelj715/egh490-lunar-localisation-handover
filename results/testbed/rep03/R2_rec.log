@@ -1,0 +1,8 @@
+Recording run 'R2'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/rep03/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 252 est poses -> results/testbed/rep03/est_raw_R2.txt  (2.5 Hz over 98.8 s, 44.90 m)
+Saved metadata -> results/testbed/rep03/meta_R2.json

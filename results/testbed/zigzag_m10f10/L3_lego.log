@@ -1,0 +1,75 @@
+[scanlog] logging to /home/lego/catkin_ws/data/results/testbed/zigzag_m10f10/logs/L3/features.csv
+[scanlog] logging to /home/lego/catkin_ws/data/results/testbed/zigzag_m10f10/logs/L3/conditioning.csv
+terminate called after throwing an instance of 'pcl::IOException'
+  what():  : [pcl::PCDWriter::writeASCII] Input point cloud has no data!
+[0m[INFO] [1791981485.468672449]: [1;32m---->[0m Transform Fusion Started.[0m
+[0m[INFO] [1791981485.173291755]: [1;32m---->[0m Image Projection Started.[0m
+[0m[INFO] [1791981485.078179595]: [1;32m---->[0m Feature Association Started.[0m
+[0m[INFO] [1791981492.865302660, 1791356481.621913866]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981499.510804282, 1791356483.622724972]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981506.183373387, 1791356485.624666427]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981512.852087797, 1791356487.625311334]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981519.529319493, 1791356489.627852105]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981526.205325668, 1791356491.630722595]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981532.870379331, 1791356493.630946632]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981539.545358425, 1791356495.632071939]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981546.231949856, 1791356497.638810833]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981552.906393782, 1791356499.641485240]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981559.591247976, 1791356501.646829080]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981566.271477842, 1791356503.651190526]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981572.945833659, 1791356505.653038879]: FA tick: SC=1 SCI=0 OC=0 timeDiff=0.1000[0m
+[0m[INFO] [1791981579.613273659, 1791356507.653314477]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981586.304334399, 1791356509.656518392]: FA tick: SC=1 SCI=0 OC=0 timeDiff=0.1000[0m
+[0m[INFO] [1791981592.976085060, 1791356511.661037030]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981599.647664032, 1791356513.662023482]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+[0m[INFO] [1791981606.319035790, 1791356515.663406119]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981612.997401852, 1791356517.668132280]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981619.676432261, 1791356519.671212994]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981626.341389054, 1791356521.671524791]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981633.007064525, 1791356523.672047105]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981639.689520896, 1791356525.676531365]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981646.363664189, 1791356527.678402050]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+[0m[INFO] [1791981653.036579804, 1791356529.680447158]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981659.714119049, 1791356531.681866329]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791981666.378715466, 1791356533.681909595]: FA tick: SC=1 SCI=1 OC=1 timeDiff=0.0000[0m
+... logging to /home/lego/.ros/log/636f03d2-c760-11f1-9e58-c785176c846c/roslaunch-lego-VirtualBox-23978.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/lego/catkin_ws/src/LeGO-LOAM/LeGO-LOAM/launch/run.launch
+[1mstarted roslaunch server http://lego-VirtualBox:32959/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+ * /use_sim_time: True
+
+NODES
+  /
+    base_link_to_camera (tf/static_transform_publisher)
+    camera_init_to_map (tf/static_transform_publisher)
+    featureAssociation (lego_loam/featureAssociation)
+    imageProjection (lego_loam/imageProjection)
+    mapOptmization (lego_loam/mapOptmization)
+    transformFusion (lego_loam/transformFusion)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/lego/catkin_ws/src/LeGO-LOAM/LeGO-LOAM/launch/run.launch http://localhost:11311
+[1mprocess[camera_init_to_map-1]: started with pid [24019][0m
+[1mprocess[base_link_to_camera-2]: started with pid [24020][0m
+[1mprocess[imageProjection-3]: started with pid [24021][0m
+[1mprocess[featureAssociation-4]: started with pid [24026][0m
+[1mprocess[mapOptmization-5]: started with pid [24033][0m
+[1mprocess[transformFusion-6]: started with pid [24038][0m
+[transformFusion-6] killing on exit
+[mapOptmization-5] killing on exit
+[featureAssociation-4] killing on exit
+[imageProjection-3] killing on exit
+[base_link_to_camera-2] killing on exit
+[camera_init_to_map-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

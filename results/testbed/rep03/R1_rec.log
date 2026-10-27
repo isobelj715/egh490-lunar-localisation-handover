@@ -1,0 +1,8 @@
+Recording run 'R1'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/rep03/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 202 est poses -> results/testbed/rep03/est_raw_R1.txt  (2.3 Hz over 88.2 s, 41.79 m)
+Saved metadata -> results/testbed/rep03/meta_R1.json

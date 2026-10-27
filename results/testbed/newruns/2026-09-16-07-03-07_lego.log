@@ -1,0 +1,49 @@
+[scanlog] logging to /home/lego/catkin_ws/data/results/testbed/newruns/logs/2026-09-16-07-03-07/features.csv
+[scanlog] logging to /home/lego/catkin_ws/data/results/testbed/newruns/logs/2026-09-16-07-03-07/conditioning.csv
+terminate called after throwing an instance of 'pcl::IOException'
+  what():  : [pcl::PCDWriter::writeASCII] Input point cloud has no data!
+[0m[INFO] [1791936423.667855618]: [1;32m---->[0m Transform Fusion Started.[0m
+[0m[INFO] [1791936423.585916900]: [1;32m---->[0m Feature Association Started.[0m
+[0m[INFO] [1791936430.417297706, 1789542187.388992546]: FA tick: SC=0 SCI=0 OC=0 timeDiff=0.0000[0m
+[0m[INFO] [1791936423.673009294]: [1;32m---->[0m Image Projection Started.[0m
+... logging to /home/lego/.ros/log/636f03d2-c760-11f1-9e58-c785176c846c/roslaunch-lego-VirtualBox-4557.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/lego/catkin_ws/src/LeGO-LOAM/LeGO-LOAM/launch/run.launch
+[1mstarted roslaunch server http://lego-VirtualBox:38823/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+ * /use_sim_time: True
+
+NODES
+  /
+    base_link_to_camera (tf/static_transform_publisher)
+    camera_init_to_map (tf/static_transform_publisher)
+    featureAssociation (lego_loam/featureAssociation)
+    imageProjection (lego_loam/imageProjection)
+    mapOptmization (lego_loam/mapOptmization)
+    transformFusion (lego_loam/transformFusion)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/lego/catkin_ws/src/LeGO-LOAM/LeGO-LOAM/launch/run.launch http://localhost:11311
+[1mprocess[camera_init_to_map-1]: started with pid [4598][0m
+[1mprocess[base_link_to_camera-2]: started with pid [4599][0m
+[1mprocess[imageProjection-3]: started with pid [4600][0m
+[1mprocess[featureAssociation-4]: started with pid [4601][0m
+[1mprocess[mapOptmization-5]: started with pid [4610][0m
+[1mprocess[transformFusion-6]: started with pid [4612][0m
+[transformFusion-6] killing on exit
+[featureAssociation-4] killing on exit
+[mapOptmization-5] killing on exit
+[camera_init_to_map-1] killing on exit
+[base_link_to_camera-2] killing on exit
+[imageProjection-3] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

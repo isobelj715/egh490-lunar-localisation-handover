@@ -1,0 +1,4 @@
+[INFO] [1790910231.531150, 0.000000]: filter_walls dial: keep_fraction=0.000 keep_sector_deg=360.0 (centre 0.0) seed=1
+[INFO] [1790910231.537407, 0.000000]: filter_walls running; remap ~input and ~output
+[INFO] [1790910565.625799, 1789542287.099276]: filter_walls summary: 131 scans | dial keep_fraction=0.000 keep_sector_deg=360.0 seed=1 | wall points 43.5% of cloud | wall points retained 0.0% | total removed 43.5% +/- 2.8%
+[INFO] [1790910565.635277, 1789542287.099276]: filter_walls shape tests: 11.4 planes accepted per scan | candidates rejected: extent 0, z_span 8, col_span 1026

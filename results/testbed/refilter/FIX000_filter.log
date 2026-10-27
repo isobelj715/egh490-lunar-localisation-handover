@@ -1,0 +1,341 @@
+[INFO] [1790769168.476740, 0.000000]: filter_walls dial: keep_fraction=0.000 keep_sector_deg=360.0 (centre 0.0) seed=1
+[INFO] [1790769168.477353, 0.000000]: filter_walls running; remap ~input and ~output
+[INFO] [1790769177.080140, 1789542191.069432]: scan 10: 59780 -> 35226 pts (41.1% removed), 12 planes, wall pts 24554, retained 0 (0.0%)
+[INFO] [1790769177.081445, 1789542191.069432]:     plane 0:  6574 pts  range   2.8 m  bearing   29.7 deg  extent 23.5 m  z_span 4.65 m  col_span 1.47 m
+[INFO] [1790769177.083284, 1789542191.069432]:     plane 1:  3344 pts  range  10.9 m  bearing -150.4 deg  extent 22.2 m  z_span 5.27 m  col_span 3.14 m
+[INFO] [1790769177.084329, 1789542191.069432]:     plane 2:  3782 pts  range   4.7 m  bearing  -59.6 deg  extent 11.9 m  z_span 2.97 m  col_span 1.95 m
+[INFO] [1790769177.085594, 1789542191.079854]:     plane 3:  2106 pts  range   2.9 m  bearing -149.1 deg  extent 23.4 m  z_span 4.65 m  col_span 0.92 m
+[INFO] [1790769177.087147, 1789542191.079854]:     plane 4:  2166 pts  range   1.7 m  bearing -151.3 deg  extent 23.3 m  z_span 4.66 m  col_span 0.29 m
+[INFO] [1790769177.088005, 1789542191.079854]:     plane 5:  1533 pts  range  10.8 m  bearing -150.6 deg  extent 22.3 m  z_span 5.68 m  col_span 1.66 m
+[INFO] [1790769177.089078, 1789542191.079854]:     plane 6:  1308 pts  range   3.0 m  bearing  118.9 deg  extent 12.7 m  z_span 1.63 m  col_span 0.16 m
+[INFO] [1790769177.090157, 1789542191.079854]:     plane 7:  1230 pts  range   1.9 m  bearing  156.3 deg  extent  8.1 m  z_span 1.77 m  col_span 0.42 m
+[INFO] [1790769177.091151, 1789542191.079854]:     plane 8:   727 pts  range  17.6 m  bearing  -62.1 deg  extent 14.3 m  z_span 5.03 m  col_span 2.91 m
+[INFO] [1790769177.092146, 1789542191.079854]:     plane 9:   683 pts  range  17.6 m  bearing  -61.4 deg  extent 14.2 m  z_span 5.21 m  col_span 2.70 m
+[INFO] [1790769177.093070, 1789542191.079854]:     plane 10:   591 pts  range  18.1 m  bearing  -60.2 deg  extent 14.5 m  z_span 1.62 m  col_span 0.89 m
+[INFO] [1790769177.093987, 1789542191.079854]:     plane 11:   510 pts  range   3.0 m  bearing   30.9 deg  extent 21.5 m  z_span 4.31 m  col_span 0.35 m
+[INFO] [1790769177.094908, 1789542191.079854]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 7}
+[INFO] [1790769180.331178, 1789542194.315366]: scan 20: 59821 -> 35275 pts (41.0% removed), 12 planes, wall pts 24546, retained 0 (0.0%)
+[INFO] [1790769180.332577, 1789542194.315366]:     plane 0:  6101 pts  range   2.8 m  bearing -150.7 deg  extent 23.3 m  z_span 4.66 m  col_span 1.47 m
+[INFO] [1790769180.335523, 1789542194.327943]:     plane 1:  3690 pts  range   4.7 m  bearing  -59.2 deg  extent 12.0 m  z_span 2.98 m  col_span 1.80 m
+[INFO] [1790769180.336860, 1789542194.327943]:     plane 2:  3235 pts  range  10.9 m  bearing   29.6 deg  extent 22.2 m  z_span 5.55 m  col_span 3.40 m
+[INFO] [1790769180.337896, 1789542194.327943]:     plane 3:  2687 pts  range   2.9 m  bearing -149.2 deg  extent 23.1 m  z_span 4.65 m  col_span 1.03 m
+[INFO] [1790769180.338828, 1789542194.327943]:     plane 4:  2151 pts  range   1.7 m  bearing -151.3 deg  extent 23.3 m  z_span 4.67 m  col_span 0.30 m
+[INFO] [1790769180.339651, 1789542194.327943]:     plane 5:  1170 pts  range   1.6 m  bearing  144.0 deg  extent 10.8 m  z_span 1.16 m  col_span 0.47 m
+[INFO] [1790769180.341048, 1789542194.327943]:     plane 6:  1249 pts  range   3.0 m  bearing  118.9 deg  extent 12.9 m  z_span 3.01 m  col_span 0.16 m
+[INFO] [1790769180.342437, 1789542194.327943]:     plane 7:  1085 pts  range  17.7 m  bearing  119.5 deg  extent 14.2 m  z_span 5.28 m  col_span 3.35 m
+[INFO] [1790769180.343188, 1789542194.327943]:     plane 8:  1073 pts  range  10.8 m  bearing   29.5 deg  extent 22.3 m  z_span 5.68 m  col_span 1.32 m
+[INFO] [1790769180.345223, 1789542194.327943]:     plane 9:   708 pts  range   5.2 m  bearing  112.8 deg  extent 14.0 m  z_span 3.31 m  col_span 1.23 m
+[INFO] [1790769180.346589, 1789542194.339120]:     plane 10:   814 pts  range  11.0 m  bearing   30.0 deg  extent 21.9 m  z_span 3.77 m  col_span 1.10 m
+[INFO] [1790769180.347667, 1789542194.339120]:     plane 11:   583 pts  range   3.0 m  bearing   30.5 deg  extent 23.4 m  z_span 4.65 m  col_span 0.48 m
+[INFO] [1790769180.348777, 1789542194.339120]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 2}
+[INFO] [1790769183.586931, 1789542197.569500]: scan 30: 60058 -> 35118 pts (41.5% removed), 12 planes, wall pts 24940, retained 0 (0.0%)
+[INFO] [1790769183.588908, 1789542197.579895]:     plane 0:  6408 pts  range   2.9 m  bearing   30.0 deg  extent 23.2 m  z_span 4.58 m  col_span 1.51 m
+[INFO] [1790769183.590588, 1789542197.579895]:     plane 1:  3180 pts  range   5.2 m  bearing  120.8 deg  extent 11.9 m  z_span 2.75 m  col_span 1.81 m
+[INFO] [1790769183.591725, 1789542197.579895]:     plane 2:  3178 pts  range  10.9 m  bearing   29.4 deg  extent 22.2 m  z_span 4.97 m  col_span 2.99 m
+[INFO] [1790769183.593612, 1789542197.579895]:     plane 3:  2426 pts  range   2.7 m  bearing   30.7 deg  extent 23.3 m  z_span 4.56 m  col_span 0.98 m
+[INFO] [1790769183.594754, 1789542197.579895]:     plane 4:  2266 pts  range   1.7 m  bearing   28.5 deg  extent 23.1 m  z_span 4.60 m  col_span 0.45 m
+[INFO] [1790769183.596602, 1789542197.579895]:     plane 5:  1464 pts  range  10.8 m  bearing -151.3 deg  extent 22.3 m  z_span 5.56 m  col_span 1.74 m
+[INFO] [1790769183.597888, 1789542197.590995]:     plane 6:  1390 pts  range   2.1 m  bearing  146.3 deg  extent 10.0 m  z_span 1.39 m  col_span 0.45 m
+[INFO] [1790769183.598986, 1789542197.590995]:     plane 7:  1411 pts  range  17.3 m  bearing  119.5 deg  extent 14.8 m  z_span 5.15 m  col_span 3.25 m
+[INFO] [1790769183.600114, 1789542197.590995]:     plane 8:  1031 pts  range   2.9 m  bearing -150.8 deg  extent 20.6 m  z_span 3.95 m  col_span 0.62 m
+[INFO] [1790769183.601359, 1789542197.590995]:     plane 9:  1000 pts  range   3.4 m  bearing  -60.7 deg  extent 13.4 m  z_span 1.50 m  col_span 0.16 m
+[INFO] [1790769183.602799, 1789542197.590995]:     plane 10:   611 pts  range   5.2 m  bearing  -61.1 deg  extent 10.6 m  z_span 2.72 m  col_span 0.98 m
+[INFO] [1790769183.603881, 1789542197.590995]:     plane 11:   575 pts  range   4.8 m  bearing  118.5 deg  extent 13.7 m  z_span 2.92 m  col_span 2.62 m
+[INFO] [1790769183.605026, 1789542197.590995]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 4}
+[INFO] [1790769187.405303, 1789542201.397305]: scan 40: 60985 -> 35750 pts (41.4% removed), 12 planes, wall pts 25235, retained 0 (0.0%)
+[INFO] [1790769187.407358, 1789542201.397305]:     plane 0:  7644 pts  range   2.8 m  bearing   35.7 deg  extent 22.6 m  z_span 3.80 m  col_span 1.48 m
+[INFO] [1790769187.409009, 1789542201.397305]:     plane 1:  3282 pts  range   2.9 m  bearing   36.8 deg  extent 22.8 m  z_span 4.38 m  col_span 1.11 m
+[INFO] [1790769187.410496, 1789542201.397305]:     plane 2:  3153 pts  range  10.8 m  bearing -144.2 deg  extent 22.3 m  z_span 5.26 m  col_span 3.11 m
+[INFO] [1790769187.411890, 1789542201.397305]:     plane 3:  2801 pts  range   5.9 m  bearing  -53.7 deg  extent 11.2 m  z_span 2.93 m  col_span 1.79 m
+[INFO] [1790769187.414042, 1789542201.397305]:     plane 4:  1910 pts  range   1.7 m  bearing   34.9 deg  extent 22.7 m  z_span 4.36 m  col_span 0.19 m
+[INFO] [1790769187.415561, 1789542201.408394]:     plane 5:  1534 pts  range  16.5 m  bearing  125.6 deg  extent 13.3 m  z_span 4.98 m  col_span 3.18 m
+[INFO] [1790769187.416933, 1789542201.408394]:     plane 6:  1289 pts  range  10.9 m  bearing -145.2 deg  extent 22.3 m  z_span 5.53 m  col_span 1.59 m
+[INFO] [1790769187.418275, 1789542201.408394]:     plane 7:   852 pts  range   6.1 m  bearing  124.8 deg  extent  8.4 m  z_span 2.01 m  col_span 0.88 m
+[INFO] [1790769187.419638, 1789542201.408394]:     plane 8:   844 pts  range  10.7 m  bearing -144.7 deg  extent 22.2 m  z_span 5.45 m  col_span 1.09 m
+[INFO] [1790769187.421849, 1789542201.408394]:     plane 9:   746 pts  range   4.1 m  bearing  -54.9 deg  extent 13.8 m  z_span 3.50 m  col_span 0.15 m
+[INFO] [1790769187.424324, 1789542201.408394]:     plane 10:   586 pts  range   5.4 m  bearing  125.7 deg  extent 13.5 m  z_span 2.89 m  col_span 2.53 m
+[INFO] [1790769187.427557, 1789542201.419240]:     plane 11:   594 pts  range  16.9 m  bearing  -53.9 deg  extent 14.4 m  z_span 1.87 m  col_span 0.84 m
+[INFO] [1790769187.429007, 1789542201.419240]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 7}
+[INFO] [1790769191.268957, 1789542205.254170]: scan 50: 61626 -> 34337 pts (44.3% removed), 11 planes, wall pts 27289, retained 0 (0.0%)
+[INFO] [1790769191.271909, 1789542205.264610]:     plane 0: 11029 pts  range   2.7 m  bearing -141.0 deg  extent 22.3 m  z_span 3.84 m  col_span 1.54 m
+[INFO] [1790769191.274103, 1789542205.264610]:     plane 1:  4511 pts  range  11.0 m  bearing -141.2 deg  extent 22.2 m  z_span 4.76 m  col_span 3.39 m
+[INFO] [1790769191.275464, 1789542205.264610]:     plane 2:  2747 pts  range   2.8 m  bearing -139.9 deg  extent 22.8 m  z_span 4.20 m  col_span 1.27 m
+[INFO] [1790769191.276689, 1789542205.264610]:     plane 3:  2496 pts  range   7.0 m  bearing  -50.0 deg  extent 11.0 m  z_span 2.59 m  col_span 2.19 m
+[INFO] [1790769191.277956, 1789542205.264610]:     plane 4:  1682 pts  range  15.4 m  bearing  128.6 deg  extent 14.8 m  z_span 4.57 m  col_span 2.97 m
+[INFO] [1790769191.279204, 1789542205.264610]:     plane 5:  1639 pts  range   1.6 m  bearing   38.5 deg  extent 23.0 m  z_span 4.24 m  col_span 0.15 m
+[INFO] [1790769191.281471, 1789542205.275393]:     plane 6:   819 pts  range  10.9 m  bearing   38.5 deg  extent 22.3 m  z_span 4.74 m  col_span 1.59 m
+[INFO] [1790769191.282799, 1789542205.275393]:     plane 7:   679 pts  range   2.6 m  bearing   39.2 deg  extent 22.2 m  z_span 3.29 m  col_span 0.79 m
+[INFO] [1790769191.283965, 1789542205.275393]:     plane 8:   681 pts  range   7.4 m  bearing  -56.6 deg  extent  8.7 m  z_span 2.73 m  col_span 2.41 m
+[INFO] [1790769191.285257, 1789542205.275393]:     plane 9:   536 pts  range  15.7 m  bearing  -51.6 deg  extent 14.5 m  z_span 1.83 m  col_span 0.78 m
+[INFO] [1790769191.286496, 1789542205.275393]:     plane 10:   470 pts  range  15.2 m  bearing  -51.6 deg  extent 14.8 m  z_span 4.60 m  col_span 1.20 m
+[INFO] [1790769191.287739, 1789542205.275393]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 10}
+[INFO] [1790769195.396443, 1789542209.371565]: scan 60: 61543 -> 33199 pts (46.1% removed), 11 planes, wall pts 28344, retained 0 (0.0%)
+[INFO] [1790769195.398287, 1789542209.371565]:     plane 0: 12581 pts  range   2.6 m  bearing -143.8 deg  extent 21.0 m  z_span 4.49 m  col_span 1.63 m
+[INFO] [1790769195.401738, 1789542209.371565]:     plane 1:  4080 pts  range  11.1 m  bearing   35.9 deg  extent 22.2 m  z_span 5.00 m  col_span 3.21 m
+[INFO] [1790769195.403355, 1789542209.395561]:     plane 2:  2946 pts  range   2.7 m  bearing -143.2 deg  extent 22.8 m  z_span 4.49 m  col_span 1.29 m
+[INFO] [1790769195.405426, 1789542209.395561]:     plane 3:  1944 pts  range   7.8 m  bearing  127.7 deg  extent  7.0 m  z_span 2.56 m  col_span 2.23 m
+[INFO] [1790769195.406792, 1789542209.395561]:     plane 4:  1587 pts  range  14.6 m  bearing  125.9 deg  extent 14.1 m  z_span 4.81 m  col_span 2.93 m
+[INFO] [1790769195.408784, 1789542209.395561]:     plane 5:  1320 pts  range  11.0 m  bearing   35.9 deg  extent 22.3 m  z_span 4.99 m  col_span 2.12 m
+[INFO] [1790769195.410057, 1789542209.395561]:     plane 6:   922 pts  range   1.6 m  bearing -142.1 deg  extent 23.6 m  z_span 4.33 m  col_span 0.11 m
+[INFO] [1790769195.411765, 1789542209.406108]:     plane 7:   851 pts  range   2.5 m  bearing   36.8 deg  extent 19.4 m  z_span 4.55 m  col_span 0.31 m
+[INFO] [1790769195.412770, 1789542209.406108]:     plane 8:   828 pts  range  14.4 m  bearing  125.6 deg  extent 14.1 m  z_span 4.88 m  col_span 1.76 m
+[INFO] [1790769195.413757, 1789542209.406108]:     plane 9:   723 pts  range  15.0 m  bearing  126.7 deg  extent 14.8 m  z_span 1.38 m  col_span 0.82 m
+[INFO] [1790769195.414690, 1789542209.406108]:     plane 10:   562 pts  range   8.0 m  bearing  122.4 deg  extent 13.9 m  z_span 2.81 m  col_span 2.42 m
+[INFO] [1790769195.415680, 1789542209.406108]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 10}
+[INFO] [1790769199.296898, 1789542213.284601]: scan 70: 61778 -> 32344 pts (47.6% removed), 11 planes, wall pts 29434, retained 0 (0.0%)
+[INFO] [1790769199.298435, 1789542213.284601]:     plane 0: 13286 pts  range   2.5 m  bearing -143.9 deg  extent 23.0 m  z_span 3.75 m  col_span 1.62 m
+[INFO] [1790769199.301565, 1789542213.294722]:     plane 1:  4754 pts  range  11.2 m  bearing -144.2 deg  extent 22.2 m  z_span 4.82 m  col_span 3.28 m
+[INFO] [1790769199.302644, 1789542213.294722]:     plane 2:  3100 pts  range   2.6 m  bearing   36.2 deg  extent 18.6 m  z_span 2.92 m  col_span 1.31 m
+[INFO] [1790769199.303739, 1789542213.294722]:     plane 3:  1790 pts  range   8.8 m  bearing  -53.0 deg  extent 11.0 m  z_span 2.74 m  col_span 2.40 m
+[INFO] [1790769199.304884, 1789542213.294722]:     plane 4:  2270 pts  range  13.6 m  bearing  -53.9 deg  extent 14.1 m  z_span 4.82 m  col_span 3.26 m
+[INFO] [1790769199.305808, 1789542213.294722]:     plane 5:  1169 pts  range   1.5 m  bearing   36.4 deg  extent 22.5 m  z_span 3.76 m  col_span 0.14 m
+[INFO] [1790769199.306774, 1789542213.294722]:     plane 6:   909 pts  range  11.0 m  bearing   36.3 deg  extent 22.2 m  z_span 4.79 m  col_span 1.46 m
+[INFO] [1790769199.307942, 1789542213.294722]:     plane 7:   628 pts  range  13.5 m  bearing  -53.4 deg  extent 14.1 m  z_span 4.79 m  col_span 1.46 m
+[INFO] [1790769199.309368, 1789542213.294722]:     plane 8:   549 pts  range   9.5 m  bearing  -61.6 deg  extent  8.6 m  z_span 3.27 m  col_span 2.19 m
+[INFO] [1790769199.311751, 1789542213.305469]:     plane 9:   524 pts  range  13.9 m  bearing  -53.8 deg  extent 14.1 m  z_span 2.31 m  col_span 0.75 m
+[INFO] [1790769199.312665, 1789542213.305469]:     plane 10:   455 pts  range   7.1 m  bearing  125.9 deg  extent 12.8 m  z_span 1.17 m  col_span 0.17 m
+[INFO] [1790769199.313937, 1789542213.305469]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 14}
+[INFO] [1790769203.256305, 1789542217.230216]: scan 80: 61357 -> 32496 pts (47.0% removed), 11 planes, wall pts 28861, retained 0 (0.0%)
+[INFO] [1790769203.258157, 1789542217.248582]:     plane 0: 11950 pts  range   2.5 m  bearing -150.2 deg  extent 23.2 m  z_span 3.03 m  col_span 1.45 m
+[INFO] [1790769203.259345, 1789542217.248582]:     plane 1:  4026 pts  range  11.2 m  bearing -150.2 deg  extent 22.3 m  z_span 4.56 m  col_span 3.44 m
+[INFO] [1790769203.260592, 1789542217.248582]:     plane 2:  2827 pts  range   2.6 m  bearing   30.0 deg  extent 19.4 m  z_span 2.82 m  col_span 1.12 m
+[INFO] [1790769203.261867, 1789542217.248582]:     plane 3:  2693 pts  range  12.4 m  bearing  -60.4 deg  extent 14.3 m  z_span 4.57 m  col_span 3.21 m
+[INFO] [1790769203.262835, 1789542217.248582]:     plane 4:  1512 pts  range  11.0 m  bearing -149.8 deg  extent 22.3 m  z_span 4.80 m  col_span 1.76 m
+[INFO] [1790769203.265936, 1789542217.258998]:     plane 5:  1591 pts  range  10.0 m  bearing  -58.5 deg  extent 10.6 m  z_span 2.80 m  col_span 2.40 m
+[INFO] [1790769203.267038, 1789542217.258998]:     plane 6:  1270 pts  range   1.4 m  bearing   29.3 deg  extent 21.1 m  z_span 2.38 m  col_span 0.15 m
+[INFO] [1790769203.268027, 1789542217.258998]:     plane 7:   856 pts  range   2.4 m  bearing   29.3 deg  extent 21.0 m  z_span 2.78 m  col_span 0.70 m
+[INFO] [1790769203.269048, 1789542217.258998]:     plane 8:   733 pts  range  11.1 m  bearing   29.9 deg  extent 16.5 m  z_span 4.12 m  col_span 1.57 m
+[INFO] [1790769203.270088, 1789542217.258998]:     plane 9:   732 pts  range  12.3 m  bearing  -60.1 deg  extent 14.3 m  z_span 4.59 m  col_span 1.44 m
+[INFO] [1790769203.271243, 1789542217.258998]:     plane 10:   671 pts  range  10.5 m  bearing  -65.8 deg  extent  9.2 m  z_span 3.86 m  col_span 2.35 m
+[INFO] [1790769203.272547, 1789542217.258998]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 4}
+[INFO] [1790769206.572074, 1789542220.559908]: scan 90: 61603 -> 32934 pts (46.5% removed), 12 planes, wall pts 28669, retained 0 (0.0%)
+[INFO] [1790769206.580255, 1789542220.570024]:     plane 0: 10022 pts  range   2.6 m  bearing   20.4 deg  extent 22.8 m  z_span 3.01 m  col_span 1.34 m
+[INFO] [1790769206.587962, 1789542220.570024]:     plane 1:  3458 pts  range   2.7 m  bearing   21.1 deg  extent 22.2 m  z_span 2.96 m  col_span 1.03 m
+[INFO] [1790769206.592637, 1789542220.580520]:     plane 2:  3027 pts  range  11.1 m  bearing -159.6 deg  extent 22.2 m  z_span 4.86 m  col_span 2.54 m
+[INFO] [1790769206.594451, 1789542220.580520]:     plane 3:  3250 pts  range  11.0 m  bearing  110.1 deg  extent 14.4 m  z_span 4.60 m  col_span 3.18 m
+[INFO] [1790769206.598989, 1789542220.591046]:     plane 4:  1940 pts  range  10.9 m  bearing   20.4 deg  extent 22.2 m  z_span 4.97 m  col_span 1.48 m
+[INFO] [1790769206.600714, 1789542220.591046]:     plane 5:  1516 pts  range   1.6 m  bearing   20.4 deg  extent 23.1 m  z_span 3.00 m  col_span 0.15 m
+[INFO] [1790769206.602156, 1789542220.591046]:     plane 6:  1418 pts  range  11.4 m  bearing  112.2 deg  extent 10.2 m  z_span 3.03 m  col_span 2.49 m
+[INFO] [1790769206.603902, 1789542220.591046]:     plane 7:   755 pts  range   2.7 m  bearing   17.6 deg  extent 15.5 m  z_span 2.63 m  col_span 0.75 m
+[INFO] [1790769206.605921, 1789542220.591046]:     plane 8:  1300 pts  range  11.2 m  bearing -159.8 deg  extent 22.1 m  z_span 3.67 m  col_span 1.18 m
+[INFO] [1790769206.608460, 1789542220.601368]:     plane 9:   760 pts  range  11.9 m  bearing -159.6 deg  extent 22.2 m  z_span 1.77 m  col_span 0.68 m
+[INFO] [1790769206.609902, 1789542220.601368]:     plane 10:   645 pts  range  11.0 m  bearing  108.5 deg  extent 14.0 m  z_span 3.87 m  col_span 1.33 m
+[INFO] [1790769206.611528, 1789542220.601368]:     plane 11:   578 pts  range  10.7 m  bearing  109.9 deg  extent  9.8 m  z_span 1.46 m  col_span 0.91 m
+[INFO] [1790769206.613208, 1789542220.601368]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 3}
+[INFO] [1790769210.404689, 1789542224.388478]: scan 100: 62611 -> 33728 pts (46.1% removed), 11 planes, wall pts 28883, retained 0 (0.0%)
+[INFO] [1790769210.408315, 1789542224.401368]:     plane 0: 10397 pts  range   3.0 m  bearing -173.9 deg  extent 22.6 m  z_span 3.49 m  col_span 1.55 m
+[INFO] [1790769210.410124, 1789542224.401368]:     plane 1:  4606 pts  range  10.6 m  bearing -173.9 deg  extent 22.0 m  z_span 5.37 m  col_span 3.44 m
+[INFO] [1790769210.411775, 1789542224.401368]:     plane 2:  2749 pts  range   2.0 m  bearing -174.0 deg  extent 22.6 m  z_span 3.77 m  col_span 0.15 m
+[INFO] [1790769210.415135, 1789542224.401368]:     plane 3:  3239 pts  range   3.2 m  bearing -174.3 deg  extent 20.1 m  z_span 3.26 m  col_span 1.18 m
+[INFO] [1790769210.417815, 1789542224.401368]:     plane 4:  2331 pts  range   9.5 m  bearing   96.5 deg  extent 13.5 m  z_span 2.98 m  col_span 2.07 m
+[INFO] [1790769210.419749, 1789542224.411927]:     plane 5:  1533 pts  range  12.3 m  bearing  -83.6 deg  extent 14.9 m  z_span 4.72 m  col_span 1.21 m
+[INFO] [1790769210.421628, 1789542224.411927]:     plane 6:   849 pts  range  10.7 m  bearing -173.9 deg  extent 21.5 m  z_span 4.63 m  col_span 0.99 m
+[INFO] [1790769210.426277, 1789542224.411927]:     plane 7:  1192 pts  range  10.5 m  bearing -174.0 deg  extent 22.0 m  z_span 5.35 m  col_span 1.31 m
+[INFO] [1790769210.429810, 1789542224.422276]:     plane 8:   881 pts  range  12.9 m  bearing   94.2 deg  extent 15.1 m  z_span 5.07 m  col_span 0.66 m
+[INFO] [1790769210.431504, 1789542224.422276]:     plane 9:   602 pts  range   9.7 m  bearing   96.9 deg  extent 14.0 m  z_span 2.76 m  col_span 1.10 m
+[INFO] [1790769210.433545, 1789542224.422276]:     plane 10:   504 pts  range  12.9 m  bearing  -82.4 deg  extent 13.9 m  z_span 3.76 m  col_span 1.24 m
+[INFO] [1790769210.435576, 1789542224.422276]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 11}
+[INFO] [1790769216.114546, 1789542230.106487]: scan 110: 62854 -> 35815 pts (43.0% removed), 12 planes, wall pts 27039, retained 0 (0.0%)
+[INFO] [1790769216.116235, 1789542230.106487]:     plane 0:  8402 pts  range   4.4 m  bearing  172.6 deg  extent 22.4 m  z_span 3.79 m  col_span 2.02 m
+[INFO] [1790769216.117344, 1789542230.106487]:     plane 1:  4147 pts  range   7.8 m  bearing  -97.7 deg  extent 13.2 m  z_span 3.26 m  col_span 2.28 m
+[INFO] [1790769216.118356, 1789542230.106487]:     plane 2:  4134 pts  range   9.2 m  bearing   -7.4 deg  extent 21.9 m  z_span 3.52 m  col_span 2.26 m
+[INFO] [1790769216.119561, 1789542230.106487]:     plane 3:  2273 pts  range   4.3 m  bearing   -7.6 deg  extent 23.1 m  z_span 3.85 m  col_span 0.91 m
+[INFO] [1790769216.120856, 1789542230.106487]:     plane 4:  2020 pts  range   4.5 m  bearing  173.0 deg  extent 22.5 m  z_span 3.73 m  col_span 1.22 m
+[INFO] [1790769216.122667, 1789542230.116541]:     plane 5:  1632 pts  range   3.3 m  bearing  172.7 deg  extent 22.3 m  z_span 3.74 m  col_span 0.15 m
+[INFO] [1790769216.124092, 1789542230.116541]:     plane 6:  1085 pts  range   7.7 m  bearing  -97.3 deg  extent 13.3 m  z_span 3.26 m  col_span 1.45 m
+[INFO] [1790769216.125342, 1789542230.116541]:     plane 7:   893 pts  range  14.6 m  bearing  -97.4 deg  extent 11.2 m  z_span 3.28 m  col_span 2.44 m
+[INFO] [1790769216.126502, 1789542230.116541]:     plane 8:   805 pts  range   9.1 m  bearing   -7.4 deg  extent 21.7 m  z_span 3.49 m  col_span 1.87 m
+[INFO] [1790769216.127436, 1789542230.116541]:     plane 9:   599 pts  range  13.9 m  bearing  -97.5 deg  extent 14.6 m  z_span 3.56 m  col_span 0.39 m
+[INFO] [1790769216.128595, 1789542230.116541]:     plane 10:   561 pts  range   6.2 m  bearing  -97.2 deg  extent 10.8 m  z_span 0.56 m  col_span 0.15 m
+[INFO] [1790769216.129714, 1789542230.116541]:     plane 11:   488 pts  range   9.4 m  bearing   -7.2 deg  extent 21.1 m  z_span 1.96 m  col_span 1.09 m
+[INFO] [1790769216.130711, 1789542230.116541]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 17}
+[INFO] [1790769220.684006, 1789542234.671865]: scan 120: 61733 -> 35570 pts (42.4% removed), 12 planes, wall pts 26163, retained 0 (0.0%)
+[INFO] [1790769220.685615, 1789542234.671865]:     plane 0:  6177 pts  range   5.7 m  bearing -113.6 deg  extent 13.6 m  z_span 3.14 m  col_span 2.30 m
+[INFO] [1790769220.688441, 1789542234.671865]:     plane 1:  5892 pts  range   7.2 m  bearing  -23.6 deg  extent 21.8 m  z_span 4.54 m  col_span 2.23 m
+[INFO] [1790769220.690239, 1789542234.681950]:     plane 2:  5207 pts  range   6.5 m  bearing  156.1 deg  extent 18.6 m  z_span 3.69 m  col_span 1.86 m
+[INFO] [1790769220.693028, 1789542234.681950]:     plane 3:  2513 pts  range   5.6 m  bearing -113.9 deg  extent 13.5 m  z_span 2.43 m  col_span 1.23 m
+[INFO] [1790769220.694028, 1789542234.681950]:     plane 4:  1246 pts  range   4.0 m  bearing -113.1 deg  extent 13.9 m  z_span 2.86 m  col_span 0.12 m
+[INFO] [1790769220.695215, 1789542234.681950]:     plane 5:   905 pts  range   6.6 m  bearing  156.7 deg  extent 21.5 m  z_span 4.30 m  col_span 1.53 m
+[INFO] [1790769220.696431, 1789542234.681950]:     plane 6:   764 pts  range   6.4 m  bearing  -24.1 deg  extent 18.7 m  z_span 3.02 m  col_span 0.85 m
+[INFO] [1790769220.698117, 1789542234.692158]:     plane 7:   756 pts  range   5.4 m  bearing  156.2 deg  extent 18.8 m  z_span 2.54 m  col_span 0.12 m
+[INFO] [1790769220.699640, 1789542234.692158]:     plane 8:   674 pts  range   7.1 m  bearing  -23.5 deg  extent 21.9 m  z_span 4.54 m  col_span 0.74 m
+[INFO] [1790769220.700845, 1789542234.692158]:     plane 9:   728 pts  range   5.5 m  bearing -113.9 deg  extent 12.9 m  z_span 1.02 m  col_span 0.56 m
+[INFO] [1790769220.701596, 1789542234.692158]:     plane 10:   659 pts  range  16.6 m  bearing -113.2 deg  extent 11.1 m  z_span 2.04 m  col_span 1.98 m
+[INFO] [1790769220.702643, 1789542234.692158]:     plane 11:   642 pts  range   7.3 m  bearing  -23.9 deg  extent 20.0 m  z_span 4.45 m  col_span 1.05 m
+[INFO] [1790769220.703789, 1789542234.692158]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 5}
+[INFO] [1790769225.497739, 1789542239.485668]: scan 130: 62497 -> 36163 pts (42.1% removed), 11 planes, wall pts 26334, retained 0 (0.0%)
+[INFO] [1790769225.499093, 1789542239.485668]:     plane 0:  7552 pts  range   5.2 m  bearing  -72.8 deg  extent 21.8 m  z_span 3.88 m  col_span 1.98 m
+[INFO] [1790769225.500444, 1789542239.485668]:     plane 1:  6669 pts  range   5.7 m  bearing -162.9 deg  extent 13.5 m  z_span 2.80 m  col_span 2.07 m
+[INFO] [1790769225.502806, 1789542239.496167]:     plane 2:  4849 pts  range   8.5 m  bearing  -73.0 deg  extent 22.3 m  z_span 4.10 m  col_span 2.44 m
+[INFO] [1790769225.504033, 1789542239.496167]:     plane 3:  1216 pts  range   5.3 m  bearing  107.3 deg  extent 20.8 m  z_span 2.46 m  col_span 1.68 m
+[INFO] [1790769225.505229, 1789542239.496167]:     plane 4:  1203 pts  range   4.1 m  bearing   17.4 deg  extent 13.7 m  z_span 1.19 m  col_span 0.12 m
+[INFO] [1790769225.507395, 1789542239.496167]:     plane 5:  1074 pts  range   4.0 m  bearing  -72.1 deg  extent 22.1 m  z_span 3.98 m  col_span 0.11 m
+[INFO] [1790769225.508602, 1789542239.496167]:     plane 6:  1246 pts  range   5.6 m  bearing   16.6 deg  extent 12.9 m  z_span 2.29 m  col_span 1.06 m
+[INFO] [1790769225.509658, 1789542239.496167]:     plane 7:   655 pts  range   8.6 m  bearing  -72.9 deg  extent 21.8 m  z_span 3.50 m  col_span 2.01 m
+[INFO] [1790769225.512366, 1789542239.496167]:     plane 8:   565 pts  range  16.0 m  bearing -163.2 deg  extent 14.5 m  z_span 0.93 m  col_span 0.78 m
+[INFO] [1790769225.514533, 1789542239.508050]:     plane 9:   693 pts  range  16.8 m  bearing -162.9 deg  extent 11.0 m  z_span 2.65 m  col_span 2.35 m
+[INFO] [1790769225.515697, 1789542239.508050]:     plane 10:   612 pts  range   8.3 m  bearing  107.0 deg  extent 21.6 m  z_span 4.08 m  col_span 1.07 m
+[INFO] [1790769225.517090, 1789542239.508050]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 13}
+[INFO] [1790769229.831790, 1789542243.811704]: scan 140: 62384 -> 33174 pts (46.8% removed), 11 planes, wall pts 29210, retained 0 (0.0%)
+[INFO] [1790769229.833945, 1789542243.811704]:     plane 0: 10624 pts  range   3.3 m  bearing   68.2 deg  extent 21.8 m  z_span 4.29 m  col_span 1.71 m
+[INFO] [1790769229.835395, 1789542243.828375]:     plane 1:  4286 pts  range   6.7 m  bearing  -22.0 deg  extent 13.9 m  z_span 2.83 m  col_span 1.92 m
+[INFO] [1790769229.836408, 1789542243.828375]:     plane 2:  4146 pts  range  10.3 m  bearing   67.9 deg  extent 22.3 m  z_span 4.58 m  col_span 2.85 m
+[INFO] [1790769229.837331, 1789542243.828375]:     plane 3:  2676 pts  range   2.1 m  bearing -111.8 deg  extent 22.2 m  z_span 4.19 m  col_span 0.15 m
+[INFO] [1790769229.838332, 1789542243.828375]:     plane 4:  2668 pts  range   3.4 m  bearing   68.8 deg  extent 22.0 m  z_span 4.37 m  col_span 1.42 m
+[INFO] [1790769229.839225, 1789542243.828375]:     plane 5:  1045 pts  range   6.9 m  bearing  -21.7 deg  extent 12.1 m  z_span 2.19 m  col_span 1.20 m
+[INFO] [1790769229.842171, 1789542243.828375]:     plane 6:   744 pts  range  15.2 m  bearing  157.9 deg  extent 14.6 m  z_span 4.63 m  col_span 2.39 m
+[INFO] [1790769229.843233, 1789542243.828375]:     plane 7:   789 pts  range   5.2 m  bearing  -21.8 deg  extent 14.1 m  z_span 2.85 m  col_span 0.13 m
+[INFO] [1790769229.844165, 1789542243.828375]:     plane 8:   882 pts  range  15.0 m  bearing  157.7 deg  extent 14.7 m  z_span 4.50 m  col_span 1.12 m
+[INFO] [1790769229.846094, 1789542243.839483]:     plane 9:   749 pts  range  10.2 m  bearing -112.0 deg  extent 22.0 m  z_span 3.81 m  col_span 0.99 m
+[INFO] [1790769229.847025, 1789542243.839483]:     plane 10:   601 pts  range  15.6 m  bearing  157.7 deg  extent 10.8 m  z_span 2.61 m  col_span 1.33 m
+[INFO] [1790769229.848081, 1789542243.839483]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 10}
+[INFO] [1790769234.194540, 1789542248.185553]: scan 150: 62460 -> 33830 pts (45.8% removed), 12 planes, wall pts 28630, retained 0 (0.0%)
+[INFO] [1790769234.197375, 1789542248.185553]:     plane 0: 11900 pts  range   2.7 m  bearing   35.4 deg  extent 21.8 m  z_span 3.34 m  col_span 1.65 m
+[INFO] [1790769234.198986, 1789542248.185553]:     plane 1:  3498 pts  range  10.9 m  bearing   35.2 deg  extent 22.6 m  z_span 3.61 m  col_span 2.73 m
+[INFO] [1790769234.200595, 1789542248.185553]:     plane 2:  3303 pts  range   9.2 m  bearing  125.1 deg  extent 13.4 m  z_span 3.34 m  col_span 2.47 m
+[INFO] [1790769234.204036, 1789542248.196447]:     plane 3:  3199 pts  range   2.8 m  bearing -144.5 deg  extent 19.1 m  z_span 2.75 m  col_span 1.34 m
+[INFO] [1790769234.205518, 1789542248.196447]:     plane 4:  1371 pts  range   1.5 m  bearing   35.2 deg  extent 22.1 m  z_span 3.17 m  col_span 0.13 m
+[INFO] [1790769234.206729, 1789542248.196447]:     plane 5:   892 pts  range  13.1 m  bearing  124.9 deg  extent 11.2 m  z_span 2.86 m  col_span 2.30 m
+[INFO] [1790769234.207851, 1789542248.196447]:     plane 6:   811 pts  range   9.3 m  bearing  123.9 deg  extent 13.4 m  z_span 3.00 m  col_span 2.20 m
+[INFO] [1790769234.209488, 1789542248.196447]:     plane 7:   863 pts  range  10.8 m  bearing -144.5 deg  extent 19.7 m  z_span 3.65 m  col_span 2.04 m
+[INFO] [1790769234.210592, 1789542248.196447]:     plane 8:   801 pts  range   2.6 m  bearing   34.9 deg  extent 15.8 m  z_span 2.57 m  col_span 1.29 m
+[INFO] [1790769234.212254, 1789542248.196447]:     plane 9:   816 pts  range  12.6 m  bearing  -53.5 deg  extent 14.4 m  z_span 3.79 m  col_span 0.78 m
+[INFO] [1790769234.217491, 1789542248.207591]:     plane 10:   575 pts  range  11.0 m  bearing -144.9 deg  extent 22.4 m  z_span 3.30 m  col_span 2.68 m
+[INFO] [1790769234.219981, 1789542248.207591]:     plane 11:   601 pts  range  13.3 m  bearing  -55.1 deg  extent  9.7 m  z_span 1.73 m  col_span 1.59 m
+[INFO] [1790769234.222025, 1789542248.207591]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 5}
+[INFO] [1790769238.516713, 1789542252.503565]: scan 160: 62657 -> 35702 pts (43.0% removed), 10 planes, wall pts 26955, retained 0 (0.0%)
+[INFO] [1790769238.518027, 1789542252.503565]:     plane 0: 11224 pts  range   2.9 m  bearing   23.7 deg  extent 22.4 m  z_span 3.06 m  col_span 1.66 m
+[INFO] [1790769238.520350, 1789542252.514603]:     plane 1:  4028 pts  range  10.8 m  bearing -156.5 deg  extent 23.0 m  z_span 3.93 m  col_span 2.93 m
+[INFO] [1790769238.521492, 1789542252.514603]:     plane 2:  2922 pts  range  11.7 m  bearing  114.0 deg  extent 14.1 m  z_span 3.71 m  col_span 2.95 m
+[INFO] [1790769238.522428, 1789542252.514603]:     plane 3:  2706 pts  range   3.0 m  bearing -156.0 deg  extent 18.0 m  z_span 2.05 m  col_span 1.33 m
+[INFO] [1790769238.523361, 1789542252.514603]:     plane 4:  1167 pts  range  10.4 m  bearing  -69.6 deg  extent 13.6 m  z_span 2.91 m  col_span 2.50 m
+[INFO] [1790769238.524296, 1789542252.514603]:     plane 5:  1566 pts  range   1.7 m  bearing -156.4 deg  extent 22.1 m  z_span 2.53 m  col_span 0.15 m
+[INFO] [1790769238.525626, 1789542252.514603]:     plane 6:  1023 pts  range  10.7 m  bearing   23.3 deg  extent 22.8 m  z_span 3.91 m  col_span 1.33 m
+[INFO] [1790769238.526478, 1789542252.514603]:     plane 7:  1028 pts  range  11.0 m  bearing  -65.6 deg  extent 10.9 m  z_span 3.04 m  col_span 1.59 m
+[INFO] [1790769238.527143, 1789542252.514603]:     plane 8:   650 pts  range  10.8 m  bearing  113.9 deg  extent 14.6 m  z_span 3.21 m  col_span 0.89 m
+[INFO] [1790769238.528249, 1789542252.514603]:     plane 9:   641 pts  range  10.2 m  bearing  114.3 deg  extent 14.6 m  z_span 3.47 m  col_span 0.67 m
+[INFO] [1790769238.529409, 1789542252.514603]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 11}
+[INFO] [1790769241.890625, 1789542255.878845]: scan 170: 62267 -> 35401 pts (43.1% removed), 12 planes, wall pts 26866, retained 0 (0.0%)
+[INFO] [1790769241.893281, 1789542255.878845]:     plane 0:  9196 pts  range   2.9 m  bearing -145.9 deg  extent 22.0 m  z_span 3.38 m  col_span 1.58 m
+[INFO] [1790769241.894844, 1789542255.878845]:     plane 1:  3511 pts  range  10.8 m  bearing -145.7 deg  extent 22.9 m  z_span 4.48 m  col_span 3.05 m
+[INFO] [1790769241.897953, 1789542255.890171]:     plane 2:  2925 pts  range   3.0 m  bearing -146.9 deg  extent 22.2 m  z_span 3.51 m  col_span 1.24 m
+[INFO] [1790769241.899526, 1789542255.890171]:     plane 3:  2396 pts  range  14.0 m  bearing  -55.3 deg  extent 14.0 m  z_span 4.25 m  col_span 3.24 m
+[INFO] [1790769241.900757, 1789542255.890171]:     plane 4:  1885 pts  range   1.8 m  bearing   33.9 deg  extent 22.1 m  z_span 3.44 m  col_span 0.17 m
+[INFO] [1790769241.902091, 1789542255.890171]:     plane 5:  1530 pts  range   8.0 m  bearing  -61.9 deg  extent  8.7 m  z_span 2.76 m  col_span 2.09 m
+[INFO] [1790769241.903563, 1789542255.890171]:     plane 6:  1276 pts  range  10.7 m  bearing -145.1 deg  extent 21.9 m  z_span 4.45 m  col_span 1.51 m
+[INFO] [1790769241.904760, 1789542255.890171]:     plane 7:  1005 pts  range   2.8 m  bearing   34.2 deg  extent 14.3 m  z_span 2.22 m  col_span 1.08 m
+[INFO] [1790769241.905845, 1789542255.890171]:     plane 8:  1279 pts  range   8.7 m  bearing  -52.4 deg  extent 10.7 m  z_span 2.89 m  col_span 1.54 m
+[INFO] [1790769241.909365, 1789542255.901028]:     plane 9:   835 pts  range   8.4 m  bearing  123.8 deg  extent 10.6 m  z_span 2.83 m  col_span 1.30 m
+[INFO] [1790769241.910759, 1789542255.901028]:     plane 10:   614 pts  range  10.8 m  bearing   35.0 deg  extent 23.2 m  z_span 4.45 m  col_span 1.30 m
+[INFO] [1790769241.913819, 1789542255.901028]:     plane 11:   414 pts  range   7.8 m  bearing  125.8 deg  extent 14.9 m  z_span 3.39 m  col_span 0.65 m
+[INFO] [1790769241.915187, 1789542255.901028]:     rejected: {'extent': 0, 'z_span': 1, 'col_span': 13}
+[INFO] [1790769245.589050, 1789542259.571860]: scan 180: 61540 -> 35937 pts (41.6% removed), 12 planes, wall pts 25603, retained 0 (0.0%)
+[INFO] [1790769245.591989, 1789542259.571860]:     plane 0:  7563 pts  range   2.8 m  bearing   37.9 deg  extent 21.9 m  z_span 3.40 m  col_span 1.29 m
+[INFO] [1790769245.594400, 1789542259.586071]:     plane 1:  2402 pts  range   6.8 m  bearing  124.9 deg  extent 13.8 m  z_span 3.42 m  col_span 2.09 m
+[INFO] [1790769245.596126, 1789542259.586071]:     plane 2:  2527 pts  range  11.0 m  bearing -141.0 deg  extent 23.0 m  z_span 5.42 m  col_span 2.80 m
+[INFO] [1790769245.597937, 1789542259.586071]:     plane 3:  2071 pts  range  15.2 m  bearing  -51.7 deg  extent 14.3 m  z_span 4.48 m  col_span 3.10 m
+[INFO] [1790769245.599420, 1789542259.586071]:     plane 4:  2218 pts  range   2.9 m  bearing   40.1 deg  extent 11.0 m  z_span 2.13 m  col_span 0.99 m
+[INFO] [1790769245.600807, 1789542259.586071]:     plane 5:  1772 pts  range   2.6 m  bearing   38.6 deg  extent 21.6 m  z_span 2.35 m  col_span 0.81 m
+[INFO] [1790769245.603328, 1789542259.596362]:     plane 6:  1195 pts  range  10.9 m  bearing -142.1 deg  extent 22.8 m  z_span 5.41 m  col_span 1.81 m
+[INFO] [1790769245.604775, 1789542259.596362]:     plane 7:  1624 pts  range   7.3 m  bearing  -51.7 deg  extent 10.2 m  z_span 2.50 m  col_span 1.53 m
+[INFO] [1790769245.606232, 1789542259.596362]:     plane 8:  1037 pts  range   1.7 m  bearing -142.6 deg  extent 22.1 m  z_span 1.96 m  col_span 0.13 m
+[INFO] [1790769245.607796, 1789542259.596362]:     plane 9:  1230 pts  range   7.2 m  bearing  128.3 deg  extent 11.2 m  z_span 3.48 m  col_span 0.87 m
+[INFO] [1790769245.610000, 1789542259.596362]:     plane 10:   997 pts  range   3.1 m  bearing   64.4 deg  extent  6.6 m  z_span 1.94 m  col_span 1.15 m
+[INFO] [1790769245.612405, 1789542259.596362]:     plane 11:   967 pts  range  11.1 m  bearing -141.5 deg  extent 22.2 m  z_span 3.32 m  col_span 1.36 m
+[INFO] [1790769245.615006, 1789542259.606764]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 0}
+[INFO] [1790769248.853843, 1789542262.839580]: scan 190: 62034 -> 34910 pts (43.7% removed), 12 planes, wall pts 27124, retained 0 (0.0%)
+[INFO] [1790769248.856225, 1789542262.839580]:     plane 0:  8230 pts  range   2.7 m  bearing   34.7 deg  extent 22.2 m  z_span 3.96 m  col_span 1.45 m
+[INFO] [1790769248.859818, 1789542262.850589]:     plane 1:  3056 pts  range   2.8 m  bearing   34.8 deg  extent 22.2 m  z_span 3.95 m  col_span 1.07 m
+[INFO] [1790769248.861480, 1789542262.850589]:     plane 2:  2508 pts  range   6.0 m  bearing  124.9 deg  extent 11.2 m  z_span 3.26 m  col_span 1.85 m
+[INFO] [1790769248.862595, 1789542262.850589]:     plane 3:  2537 pts  range  11.1 m  bearing -144.6 deg  extent 23.2 m  z_span 5.03 m  col_span 3.18 m
+[INFO] [1790769248.863523, 1789542262.850589]:     plane 4:  1854 pts  range  16.5 m  bearing  -55.4 deg  extent 14.3 m  z_span 4.80 m  col_span 3.13 m
+[INFO] [1790769248.864516, 1789542262.850589]:     plane 5:  1902 pts  range   5.5 m  bearing  124.9 deg  extent 13.5 m  z_span 2.37 m  col_span 1.56 m
+[INFO] [1790769248.865556, 1789542262.850589]:     plane 6:  1614 pts  range   2.6 m  bearing   61.9 deg  extent  5.8 m  z_span 1.72 m  col_span 0.94 m
+[INFO] [1790769248.867526, 1789542262.860820]:     plane 7:  1378 pts  range   6.1 m  bearing  -55.5 deg  extent  9.9 m  z_span 3.08 m  col_span 1.11 m
+[INFO] [1790769248.869456, 1789542262.860820]:     plane 8:  1142 pts  range   1.6 m  bearing -144.6 deg  extent 22.2 m  z_span 3.82 m  col_span 0.16 m
+[INFO] [1790769248.870493, 1789542262.860820]:     plane 9:  1190 pts  range  10.9 m  bearing   35.2 deg  extent 23.1 m  z_span 5.03 m  col_span 1.55 m
+[INFO] [1790769248.871416, 1789542262.860820]:     plane 10:   895 pts  range  11.1 m  bearing   35.1 deg  extent 22.0 m  z_span 4.43 m  col_span 1.55 m
+[INFO] [1790769248.872313, 1789542262.860820]:     plane 11:   818 pts  range   4.1 m  bearing  -55.3 deg  extent 14.4 m  z_span 3.38 m  col_span 0.10 m
+[INFO] [1790769248.872974, 1789542262.860820]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 1}
+[INFO] [1790769251.845734, 1789542265.810412]: scan 200: 61393 -> 31427 pts (48.8% removed), 12 planes, wall pts 29966, retained 0 (0.0%)
+[INFO] [1790769251.847420, 1789542265.836676]:     plane 0:  8664 pts  range   2.8 m  bearing -159.7 deg  extent 21.7 m  z_span 4.33 m  col_span 1.60 m
+[INFO] [1790769251.849016, 1789542265.836676]:     plane 1:  3574 pts  range   4.5 m  bearing  -73.5 deg  extent 13.9 m  z_span 3.01 m  col_span 1.65 m
+[INFO] [1790769251.851001, 1789542265.836676]:     plane 2:  2911 pts  range  10.8 m  bearing   20.0 deg  extent 22.7 m  z_span 5.25 m  col_span 2.81 m
+[INFO] [1790769251.852227, 1789542265.836676]:     plane 3:  2465 pts  range   2.9 m  bearing   20.5 deg  extent 14.8 m  z_span 2.16 m  col_span 1.15 m
+[INFO] [1790769251.853189, 1789542265.836676]:     plane 4:  2374 pts  range   2.1 m  bearing  176.5 deg  extent 20.1 m  z_span 4.23 m  col_span 0.37 m
+[INFO] [1790769251.855721, 1789542265.849146]:     plane 5:  2016 pts  range   5.0 m  bearing  108.8 deg  extent  7.9 m  z_span 1.59 m  col_span 1.27 m
+[INFO] [1790769251.857597, 1789542265.849146]:     plane 6:  1859 pts  range   4.8 m  bearing  109.3 deg  extent 11.1 m  z_span 3.10 m  col_span 0.98 m
+[INFO] [1790769251.861189, 1789542265.849146]:     plane 7:  1581 pts  range   4.3 m  bearing  -72.6 deg  extent 14.3 m  z_span 3.10 m  col_span 1.06 m
+[INFO] [1790769251.862889, 1789542265.849146]:     plane 8:  1181 pts  range   3.0 m  bearing  -70.2 deg  extent 14.2 m  z_span 3.49 m  col_span 0.13 m
+[INFO] [1790769251.865405, 1789542265.849146]:     plane 9:  1208 pts  range   1.7 m  bearing -160.1 deg  extent 21.9 m  z_span 4.25 m  col_span 0.18 m
+[INFO] [1790769251.867366, 1789542265.859763]:     plane 10:   886 pts  range   2.0 m  bearing -128.2 deg  extent  6.6 m  z_span 2.10 m  col_span 0.24 m
+[INFO] [1790769251.869462, 1789542265.859763]:     plane 11:  1247 pts  range  17.4 m  bearing  -69.8 deg  extent 13.5 m  z_span 3.36 m  col_span 2.60 m
+[INFO] [1790769251.870747, 1789542265.859763]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 0}
+[INFO] [1790769255.517472, 1789542269.501997]: scan 210: 60036 -> 32492 pts (45.9% removed), 11 planes, wall pts 27544, retained 0 (0.0%)
+[INFO] [1790769255.519194, 1789542269.501997]:     plane 0:  8983 pts  range   2.7 m  bearing -136.3 deg  extent 11.3 m  z_span 3.03 m  col_span 1.22 m
+[INFO] [1790769255.521624, 1789542269.514231]:     plane 1:  4719 pts  range   4.6 m  bearing  -46.2 deg  extent 22.3 m  z_span 4.75 m  col_span 1.97 m
+[INFO] [1790769255.523132, 1789542269.514231]:     plane 2:  3774 pts  range   2.4 m  bearing -139.5 deg  extent 14.1 m  z_span 2.59 m  col_span 1.19 m
+[INFO] [1790769255.524514, 1789542269.514231]:     plane 3:  2470 pts  range   9.1 m  bearing  133.3 deg  extent 22.8 m  z_span 5.13 m  col_span 2.82 m
+[INFO] [1790769255.526023, 1789542269.514231]:     plane 4:  1247 pts  range   2.9 m  bearing   43.9 deg  extent  9.2 m  z_span 2.42 m  col_span 0.22 m
+[INFO] [1790769255.527525, 1789542269.514231]:     plane 5:  1340 pts  range   8.9 m  bearing  132.9 deg  extent 22.7 m  z_span 5.17 m  col_span 1.90 m
+[INFO] [1790769255.529398, 1789542269.514231]:     plane 6:  1345 pts  range   4.7 m  bearing  133.7 deg  extent 22.2 m  z_span 4.59 m  col_span 1.02 m
+[INFO] [1790769255.532814, 1789542269.524514]:     plane 7:  1330 pts  range  19.7 m  bearing   43.6 deg  extent 13.5 m  z_span 5.32 m  col_span 4.20 m
+[INFO] [1790769255.534504, 1789542269.524514]:     plane 8:   869 pts  range   3.5 m  bearing  134.8 deg  extent 22.2 m  z_span 4.28 m  col_span 0.14 m
+[INFO] [1790769255.536433, 1789542269.524514]:     plane 9:   855 pts  range   0.9 m  bearing -136.6 deg  extent 14.3 m  z_span 3.01 m  col_span 0.19 m
+[INFO] [1790769255.538714, 1789542269.524514]:     plane 10:   612 pts  range   4.7 m  bearing  -66.2 deg  extent 20.7 m  z_span 4.89 m  col_span 1.31 m
+[INFO] [1790769255.542135, 1789542269.534859]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 9}
+[INFO] [1790769260.657598, 1789542274.646791]: scan 220: 59489 -> 36974 pts (37.8% removed), 11 planes, wall pts 22515, retained 0 (0.0%)
+[INFO] [1790769260.659215, 1789542274.646791]:     plane 0:  8586 pts  range   2.6 m  bearing -147.2 deg  extent 10.8 m  z_span 1.73 m  col_span 0.91 m
+[INFO] [1790769260.660334, 1789542274.646791]:     plane 1:  4574 pts  range   7.1 m  bearing  -57.5 deg  extent 21.6 m  z_span 6.22 m  col_span 3.20 m
+[INFO] [1790769260.663284, 1789542274.646791]:     plane 2:  4050 pts  range   6.6 m  bearing  122.5 deg  extent 24.0 m  z_span 6.33 m  col_span 3.41 m
+[INFO] [1790769260.665760, 1789542274.657031]:     plane 3:  1190 pts  range   7.0 m  bearing  122.4 deg  extent 22.3 m  z_span 6.41 m  col_span 2.87 m
+[INFO] [1790769260.667115, 1789542274.657031]:     plane 4:  1020 pts  range   6.4 m  bearing  -57.4 deg  extent 24.1 m  z_span 6.70 m  col_span 1.74 m
+[INFO] [1790769260.670135, 1789542274.657031]:     plane 5:   801 pts  range   0.8 m  bearing -147.6 deg  extent 12.6 m  z_span 1.01 m  col_span 0.22 m
+[INFO] [1790769260.671336, 1789542274.657031]:     plane 6:   529 pts  range   5.3 m  bearing  124.7 deg  extent 23.4 m  z_span 6.75 m  col_span 0.51 m
+[INFO] [1790769260.672406, 1789542274.657031]:     plane 7:   498 pts  range   5.9 m  bearing  -57.3 deg  extent 22.4 m  z_span 6.76 m  col_span 0.14 m
+[INFO] [1790769260.681108, 1789542274.667707]:     plane 8:   433 pts  range   7.1 m  bearing  106.2 deg  extent 20.5 m  z_span 6.88 m  col_span 1.50 m
+[INFO] [1790769260.682897, 1789542274.667707]:     plane 9:   414 pts  range  19.7 m  bearing   31.1 deg  extent 14.1 m  z_span 4.75 m  col_span 1.38 m
+[INFO] [1790769260.684919, 1789542274.678030]:     plane 10:   420 pts  range  19.9 m  bearing   30.5 deg  extent 13.0 m  z_span 3.86 m  col_span 0.96 m
+[INFO] [1790769260.685900, 1789542274.678030]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 13}
+[INFO] [1790769265.926997, 1789542279.915167]: scan 230: 58479 -> 36568 pts (37.5% removed), 11 planes, wall pts 21911, retained 0 (0.0%)
+[INFO] [1790769265.928662, 1789542279.915167]:     plane 0:  6996 pts  range   3.1 m  bearing -169.8 deg  extent 10.9 m  z_span 2.29 m  col_span 1.39 m
+[INFO] [1790769265.933159, 1789542279.915167]:     plane 1:  3860 pts  range   3.7 m  bearing  -81.0 deg  extent 23.1 m  z_span 4.99 m  col_span 1.97 m
+[INFO] [1790769265.934817, 1789542279.925440]:     plane 2:  3413 pts  range  10.0 m  bearing  -80.9 deg  extent 22.3 m  z_span 5.39 m  col_span 3.11 m
+[INFO] [1790769265.936463, 1789542279.925440]:     plane 3:  2610 pts  range   2.6 m  bearing  102.3 deg  extent 23.2 m  z_span 4.90 m  col_span 0.60 m
+[INFO] [1790769265.937266, 1789542279.925440]:     plane 4:  1575 pts  range   9.8 m  bearing   98.9 deg  extent 22.3 m  z_span 5.63 m  col_span 1.82 m
+[INFO] [1790769265.940148, 1789542279.925440]:     plane 5:   854 pts  range  19.4 m  bearing -169.5 deg  extent 14.2 m  z_span 5.21 m  col_span 2.88 m
+[INFO] [1790769265.954091, 1789542279.946698]:     plane 6:   525 pts  range   3.8 m  bearing  -78.5 deg  extent 23.4 m  z_span 4.50 m  col_span 1.04 m
+[INFO] [1790769265.955535, 1789542279.946698]:     plane 7:   555 pts  range  19.4 m  bearing -171.1 deg  extent 14.3 m  z_span 5.18 m  col_span 2.45 m
+[INFO] [1790769265.956663, 1789542279.946698]:     plane 8:   485 pts  range  19.7 m  bearing    8.9 deg  extent 14.3 m  z_span 1.81 m  col_span 0.96 m
+[INFO] [1790769265.957631, 1789542279.946698]:     plane 9:   540 pts  range   3.9 m  bearing  100.8 deg  extent 22.6 m  z_span 4.52 m  col_span 0.54 m
+[INFO] [1790769265.958639, 1789542279.946698]:     plane 10:   498 pts  range   1.3 m  bearing    8.8 deg  extent 13.9 m  z_span 0.79 m  col_span 0.15 m
+[INFO] [1790769265.959587, 1789542279.946698]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 11}
+[INFO] [1790769270.720737, 1789542284.700473]: scan 240: 58860 -> 31823 pts (45.9% removed), 12 planes, wall pts 27037, retained 0 (0.0%)
+[INFO] [1790769270.722476, 1789542284.700473]:     plane 0:  9678 pts  range   2.4 m  bearing   27.3 deg  extent 23.4 m  z_span 4.52 m  col_span 1.55 m
+[INFO] [1790769270.723614, 1789542284.700473]:     plane 1:  3439 pts  range  11.2 m  bearing   26.8 deg  extent 18.4 m  z_span 4.02 m  col_span 3.14 m
+[INFO] [1790769270.727756, 1789542284.717130]:     plane 2:  3397 pts  range   2.5 m  bearing   28.3 deg  extent 23.3 m  z_span 4.52 m  col_span 1.23 m
+[INFO] [1790769270.735122, 1789542284.717130]:     plane 3:  2650 pts  range   5.3 m  bearing  -61.4 deg  extent  8.6 m  z_span 2.30 m  col_span 1.62 m
+[INFO] [1790769270.737504, 1789542284.731557]:     plane 4:  2069 pts  range   2.2 m  bearing  -23.9 deg  extent  7.9 m  z_span 1.93 m  col_span 0.65 m
+[INFO] [1790769270.738847, 1789542284.731557]:     plane 5:  1171 pts  range   1.3 m  bearing -154.2 deg  extent 22.6 m  z_span 4.52 m  col_span 0.24 m
+[INFO] [1790769270.740760, 1789542284.731557]:     plane 6:  1469 pts  range  17.1 m  bearing  117.2 deg  extent 12.9 m  z_span 4.81 m  col_span 3.23 m
+[INFO] [1790769270.741796, 1789542284.731557]:     plane 7:   822 pts  range   3.5 m  bearing  117.4 deg  extent 13.1 m  z_span 0.92 m  col_span 0.16 m
+[INFO] [1790769270.742744, 1789542284.731557]:     plane 8:   633 pts  range   2.3 m  bearing -154.5 deg  extent 20.3 m  z_span 3.54 m  col_span 0.48 m
+[INFO] [1790769270.743698, 1789542284.731557]:     plane 9:   556 pts  range   5.0 m  bearing  115.8 deg  extent 13.7 m  z_span 2.96 m  col_span 2.47 m
+[INFO] [1790769270.744632, 1789542284.731557]:     plane 10:   593 pts  range   5.5 m  bearing  -64.7 deg  extent 10.3 m  z_span 2.38 m  col_span 0.87 m
+[INFO] [1790769270.745572, 1789542284.731557]:     plane 11:   560 pts  range  17.5 m  bearing  117.1 deg  extent 13.5 m  z_span 1.28 m  col_span 0.87 m
+[INFO] [1790769270.746494, 1789542284.731557]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 7}
+[INFO] [1790769274.525466, 1789542287.105436]: scan 250: 60963 -> 32906 pts (46.0% removed), 11 planes, wall pts 28057, retained 0 (0.0%)
+[INFO] [1790769274.527831, 1789542287.105436]:     plane 0: 11993 pts  range   2.5 m  bearing -152.2 deg  extent 21.7 m  z_span 3.78 m  col_span 1.55 m
+[INFO] [1790769274.529703, 1789542287.105436]:     plane 1:  4434 pts  range  11.1 m  bearing -152.1 deg  extent 22.2 m  z_span 4.56 m  col_span 3.14 m
+[INFO] [1790769274.531377, 1789542287.105436]:     plane 2:  3041 pts  range   2.6 m  bearing -152.5 deg  extent 19.8 m  z_span 2.67 m  col_span 1.31 m
+[INFO] [1790769274.532936, 1789542287.105436]:     plane 3:  2048 pts  range   7.5 m  bearing  117.9 deg  extent 11.0 m  z_span 2.75 m  col_span 1.97 m
+[INFO] [1790769274.534432, 1789542287.105436]:     plane 4:  1773 pts  range  15.0 m  bearing  -61.4 deg  extent 14.1 m  z_span 4.65 m  col_span 2.88 m
+[INFO] [1790769274.535792, 1789542287.105436]:     plane 5:  1153 pts  range   1.5 m  bearing -151.4 deg  extent 22.3 m  z_span 3.93 m  col_span 0.14 m
+[INFO] [1790769274.537250, 1789542287.105436]:     plane 6:   915 pts  range   7.6 m  bearing  -62.5 deg  extent  6.7 m  z_span 2.52 m  col_span 1.37 m
+[INFO] [1790769274.538856, 1789542287.105436]:     plane 7:   834 pts  range   2.4 m  bearing -152.4 deg  extent 21.8 m  z_span 3.84 m  col_span 0.62 m
+[INFO] [1790769274.540469, 1789542287.105436]:     plane 8:   812 pts  range  11.0 m  bearing   27.8 deg  extent 22.2 m  z_span 4.55 m  col_span 1.71 m
+[INFO] [1790769274.542109, 1789542287.105436]:     plane 9:   518 pts  range  15.4 m  bearing  -61.6 deg  extent 14.1 m  z_span 1.19 m  col_span 0.41 m
+[INFO] [1790769274.543829, 1789542287.105436]:     plane 10:   536 pts  range   7.2 m  bearing  -64.1 deg  extent  3.6 m  z_span 2.84 m  col_span 2.62 m
+[INFO] [1790769274.545448, 1789542287.105436]:     rejected: {'extent': 0, 'z_span': 0, 'col_span': 6}
+[INFO] [1790769283.478944, 1789542287.105436]: filter_walls summary: 251 scans | dial keep_fraction=0.000 keep_sector_deg=360.0 seed=1 | wall points 43.4% of cloud | wall points retained 0.0% | total removed 43.4% +/- 2.8%
+[INFO] [1790769283.479880, 1789542287.105436]: filter_walls shape tests: 11.5 planes accepted per scan | candidates rejected: extent 0, z_span 10, col_span 1869

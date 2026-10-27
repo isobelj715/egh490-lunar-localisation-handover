@@ -1,0 +1,53 @@
+[WARN] [1792495556.079111]: tf lookup failed (timeout 2.0s): Lookup would require extrapolation 0.042704344s into the past.  Requested time 1791356220.130323410 but the earliest data is at time 1791356220.173027754, when looking up transform from frame [base_link] to frame [map]
+[WARN] [1792495558.095353]: tf lookup failed (timeout 2.0s): Lookup would require extrapolation 0.100182533s into the past.  Requested time 1791356220.230290890 but the earliest data is at time 1791356220.330473423, when looking up transform from frame [base_link] to frame [map]
+[WARN] [1792495799.910600]: tf lookup failed (timeout 2.0s): Lookup would require extrapolation 0.100065708s into the future.  Requested time 1791356293.293041706 but the latest data is at time 1791356293.192975998, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1792495548.366835]: cropping /velodyne_points -> /velodyne_points_cropped, map frame, arena yaw 31.00 deg
+[INFO] [1792495558.110931]: t=  0.00 s  kept 15899 of 62415 (25.5%)
+[INFO] [1792495561.409816]: t=  2.00 s  kept 15790 of 62365 (25.3%)
+[INFO] [1792495568.104473]: t=  4.00 s  kept 15905 of 62427 (25.5%)
+[INFO] [1792495574.749588]: t=  6.00 s  kept 15824 of 62284 (25.4%)
+[INFO] [1792495581.406481]: t=  8.01 s  kept 15815 of 62393 (25.3%)
+[INFO] [1792495588.095515]: t= 10.01 s  kept 15836 of 62413 (25.4%)
+[INFO] [1792495594.766644]: t= 12.01 s  kept 15794 of 62391 (25.3%)
+[INFO] [1792495601.436080]: t= 14.01 s  kept 15769 of 62370 (25.3%)
+[INFO] [1792495608.131353]: t= 16.01 s  kept 15780 of 62448 (25.3%)
+[INFO] [1792495614.784967]: t= 18.02 s  kept 15635 of 62354 (25.1%)
+[INFO] [1792495621.462021]: t= 20.02 s  kept 17289 of 62734 (27.6%)
+[INFO] [1792495628.131514]: t= 22.02 s  kept 19562 of 62721 (31.2%)
+[INFO] [1792495634.792663]: t= 24.02 s  kept 15940 of 59859 (26.6%)
+[INFO] [1792495641.469527]: t= 26.02 s  kept 17256 of 62384 (27.7%)
+[INFO] [1792495648.146949]: t= 28.02 s  kept 19157 of 62288 (30.8%)
+[INFO] [1792495654.818301]: t= 30.03 s  kept 19248 of 61836 (31.1%)
+[INFO] [1792495661.487504]: t= 32.03 s  kept 22033 of 61705 (35.7%)
+[INFO] [1792495668.172058]: t= 34.03 s  kept 29113 of 61725 (47.2%)
+[INFO] [1792495674.860140]: t= 36.03 s  kept 32717 of 62419 (52.4%)
+[INFO] [1792495681.644256]: t= 38.03 s  kept 31646 of 62260 (50.8%)
+[INFO] [1792495688.298908]: t= 40.03 s  kept 31542 of 62346 (50.6%)
+[INFO] [1792495694.968722]: t= 42.04 s  kept 28217 of 60596 (46.6%)
+[INFO] [1792495701.666699]: t= 44.04 s  kept 28797 of 62536 (46.0%)
+[INFO] [1792495708.290789]: t= 46.04 s  kept 27466 of 61447 (44.7%)
+[INFO] [1792495714.908828]: t= 48.04 s  kept 24762 of 61630 (40.2%)
+[INFO] [1792495721.695480]: t= 50.04 s  kept 19933 of 62294 (32.0%)
+[INFO] [1792495728.399223]: t= 52.04 s  kept 9301 of 62354 (14.9%)
+[INFO] [1792495735.088183]: t= 54.05 s  kept 15432 of 62325 (24.8%)
+[INFO] [1792495741.757205]: t= 56.05 s  kept 16404 of 62671 (26.2%)
+[INFO] [1792495748.388770]: t= 58.05 s  kept 17087 of 61553 (27.8%)
+[INFO] [1792495755.084823]: t= 60.05 s  kept 17057 of 61560 (27.7%)
+[INFO] [1792495761.668799]: t= 62.05 s  kept 17058 of 61460 (27.8%)
+[INFO] [1792495768.373619]: t= 64.05 s  kept 16968 of 61519 (27.6%)
+[INFO] [1792495775.060007]: t= 66.06 s  kept 17044 of 61572 (27.7%)
+[INFO] [1792495781.709575]: t= 68.06 s  kept 16962 of 61651 (27.5%)
+[INFO] [1792495788.414311]: t= 70.06 s  kept 17070 of 61679 (27.7%)
+[INFO] [1792495795.039471]: t= 72.06 s  kept 17065 of 61720 (27.6%)
+
+==============================================================
+frames processed : 729  (3 tf lookups failed)
+duration         : 72.86 s
+start pose       :  +0.001  +0.000  +0.000
+end pose         :  -0.584  +1.052  -0.044
+net displacement : 1.204 m
+path length      : 25.907 m
+
+points kept : 14269923 of 45196831 (31.6%)
+avg per scan: 19574
+==============================================================

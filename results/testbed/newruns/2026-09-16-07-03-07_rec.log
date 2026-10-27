@@ -1,0 +1,8 @@
+Recording run '2026-09-16-07-03-07'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/newruns/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 3 est poses -> results/testbed/newruns/est_raw_2026-09-16-07-03-07.txt  (2.5 Hz over 0.8 s, 0.01 m)
+Saved metadata -> results/testbed/newruns/meta_2026-09-16-07-03-07.json

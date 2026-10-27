@@ -1,0 +1,5 @@
+[WARN] [1790771224.159547, 0.000000]: filter_walls: dial fully open -- walls kept intact. This is the passthrough condition.
+[INFO] [1790771224.158170, 0.000000]: filter_walls dial: keep_fraction=1.000 keep_sector_deg=360.0 (centre 0.0) seed=1
+[INFO] [1790771224.160975, 0.000000]: filter_walls running; remap ~input and ~output
+[INFO] [1790771571.043573, 1789542287.098992]: filter_walls summary: 626 scans | dial keep_fraction=1.000 keep_sector_deg=360.0 seed=1 | wall points 43.5% of cloud | wall points retained 100.0% | total removed 0.0% +/- 0.0%
+[INFO] [1790771571.045422, 1789542287.098992]: filter_walls shape tests: 11.3 planes accepted per scan | candidates rejected: extent 0, z_span 39, col_span 4832

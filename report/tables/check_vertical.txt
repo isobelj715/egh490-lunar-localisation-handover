@@ -1,0 +1,103 @@
+=== september_lim
+
+vertical axis detected as 'y' from L0 (spreads x 13.59  y 1.07  z 12.37 m)
+  For /aft_mapped_to_init, 'y' is correct -- LeGO-LOAM publishes
+  LOAM's internal frame, in which y is up.
+
+run            poses   vert[m]    net[m]    revisit  mismatch   pairs  start-end
+--------------------------------------------------------------------------------
+L0               249      1.07     -0.13     0.00 m    0.01 m     606       5.29
+
+vert       total height range over the run
+net        height at the end minus height at the start
+revisit    closest the path comes to a place it visited >20 s earlier
+mismatch   median height disagreement over ALL pose pairs that pass within
+           1.0 m of each other more than 20 s apart
+pairs      how many such pairs there were -- a handful means the path barely
+           overlaps itself and this test is weak for that run
+start-end  horizontal distance from first pose to last
+
+================================================================================
+VERDICT for the baseline (L0)
+================================================================================
+606 overlapping pose pairs, median height mismatch 0.012 m against a total height range of 1.07 m (1%).
+
+TERRAIN. The run reports the same height each time it passes the same place, so
+the height profile is the crater and the mounds, not drift. The baseline is
+sound and the drift numbers measured against it stand.
+
+mismatch vs elapsed time between visits: r = -0.09
+   r near 0    the error is a property of the PLACE -> terrain
+   r positive  the error grows with elapsed time -> drift
+
+Start-to-end is the absolute check that needs no baseline: the operator tried to
+finish each loop where it began. L0's value carries his placement error, and
+that same error is in every level of this run -- so each level's EXCESS over
+L0's start-to-end is drift caused by removing structure.
+=== rectangle_lim
+
+vertical axis detected as 'y' from L0 (spreads x 12.14  y 1.16  z 12.22 m)
+  For /aft_mapped_to_init, 'y' is correct -- LeGO-LOAM publishes
+  LOAM's internal frame, in which y is up.
+
+run            poses   vert[m]    net[m]    revisit  mismatch   pairs  start-end
+--------------------------------------------------------------------------------
+L0               258      1.16     -0.01     0.05 m    0.01 m     926       1.10
+
+vert       total height range over the run
+net        height at the end minus height at the start
+revisit    closest the path comes to a place it visited >20 s earlier
+mismatch   median height disagreement over ALL pose pairs that pass within
+           1.0 m of each other more than 20 s apart
+pairs      how many such pairs there were -- a handful means the path barely
+           overlaps itself and this test is weak for that run
+start-end  horizontal distance from first pose to last
+
+================================================================================
+VERDICT for the baseline (L0)
+================================================================================
+926 overlapping pose pairs, median height mismatch 0.015 m against a total height range of 1.16 m (1%).
+
+TERRAIN. The run reports the same height each time it passes the same place, so
+the height profile is the crater and the mounds, not drift. The baseline is
+sound and the drift numbers measured against it stand.
+
+mismatch vs elapsed time between visits: r = -0.07
+   r near 0    the error is a property of the PLACE -> terrain
+   r positive  the error grows with elapsed time -> drift
+
+Start-to-end is the absolute check that needs no baseline: the operator tried to
+finish each loop where it began. L0's value carries his placement error, and
+that same error is in every level of this run -- so each level's EXCESS over
+L0's start-to-end is drift caused by removing structure.
+=== zigzag_lim
+
+vertical axis detected as 'y' from L0 (spreads x 8.91  y 0.60  z 6.26 m)
+  For /aft_mapped_to_init, 'y' is correct -- LeGO-LOAM publishes
+  LOAM's internal frame, in which y is up.
+
+run            poses   vert[m]    net[m]    revisit  mismatch   pairs  start-end
+--------------------------------------------------------------------------------
+L0               143      0.60     -0.55     1.30 m         -       0      10.88
+
+vert       total height range over the run
+net        height at the end minus height at the start
+revisit    closest the path comes to a place it visited >20 s earlier
+mismatch   median height disagreement over ALL pose pairs that pass within
+           1.0 m of each other more than 20 s apart
+pairs      how many such pairs there were -- a handful means the path barely
+           overlaps itself and this test is weak for that run
+start-end  horizontal distance from first pose to last
+
+================================================================================
+VERDICT for the baseline (L0)
+================================================================================
+The path never revisits a place, so this test cannot run on it.
+Without a revisit there is no way to separate terrain from vertical drift using
+the trajectory alone -- you would need the accumulated map: fit a plane to the
+sand in maps/<run>.pcd and check whether the pose height tracks it.
+
+Start-to-end is the absolute check that needs no baseline: the operator tried to
+finish each loop where it began. L0's value carries his placement error, and
+that same error is in every level of this run -- so each level's EXCESS over
+L0's start-to-end is drift caused by removing structure.

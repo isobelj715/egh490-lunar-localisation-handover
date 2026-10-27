@@ -1,0 +1,28 @@
+
+baseline  results/testbed/rep03/est_raw_R2.txt
+  spread   x 13.62  y 1.04  z 12.35 m
+  vertical 'y' (smallest spread), ground plane x-z
+  !! 1.04 m of vertical motion is a lot for flat sand. If the
+     plane detection is wrong these paths are a projection of
+     the wrong two axes -- check with check_vertical.py first.
+
+wrote report_v2/figs/noise_floor_repeats.png
+
+run                             poses   dur[s]   pathlen    final     peak   t>0.50m
+------------------------------------------------------------------------------------
+replay 2                          252     98.8     44.68    0.000    0.000        --
+replay 3                          249     98.8     44.66    0.002    0.053        --
+replay 1                          202     88.1     41.58    0.034    0.323        --
+
+pathlen   distance travelled by the ESTIMATE. The rover's true path length is
+          the same in every row, so a departure from the reference's value is
+          itself an error: above means the pose is wandering, below means
+          motion is being under-estimated.
+final     separation from the reference at the last shared timestamp
+peak      the worst separation anywhere in the run
+t>thr     when it first lost tracking
+
+Read the paths, not just the numbers. Once a run is tens of times the 0.012 m
+noise floor its final separation is a lottery -- it depends on which way the
+divergence happened to be pointing when the bag ended, not on the algorithm.
+`t>thr` and the SHAPE of the departure are what stay meaningful.

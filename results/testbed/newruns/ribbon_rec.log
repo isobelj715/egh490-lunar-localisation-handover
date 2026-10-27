@@ -1,0 +1,8 @@
+Recording run 'ribbon'
+  GT  /ground_truth/state
+  EST /aft_mapped_to_init
+  ->  results/testbed/newruns/
+Ctrl-C to stop and save.
+WARNING: no gt poses recorded on /ground_truth/state
+Saved 164 est poses -> results/testbed/newruns/est_raw_ribbon.txt  (2.5 Hz over 65.3 s, 13.85 m)
+Saved metadata -> results/testbed/newruns/meta_ribbon.json
