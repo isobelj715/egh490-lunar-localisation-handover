@@ -9,10 +9,19 @@ will run.
 
 In my shared document folder in the project Teams group.
 
-Copy the files listed under **Source recordings** below into this directory,
-keeping their original filenames. Filenames are load-bearing: `crop_all.sh`,
-`crop_run.sh` and `reprocess_lim.sh` locate bags by name.
-
+Copy everything listed below into this directory and extract the archives in
+place, so the files end up with their original names. **Filenames are
+important**: `crop_all.sh`, `crop_run.sh` and `reprocess_lim.sh` locate bags
+by name.
+ 
+| in the Teams folder | extracts to |
+|---|---|
+| `egh490_tf_bags.zip` | all the `*_tf.bag` companion files |
+| `2026-09-16-07-03-07.zip` | `2026-09-16-07-03-07.bag` |
+| `rosbag2_2026_08_31-17_09_53.7z` | a ROS 2 bag directory |
+| `rosbag2_2026_08_31-17_12_49.7z` | a ROS 2 bag directory |
+ 
+The remaining `.bag` files are uploaded loose and need no extraction.
 ## Source recordings — archive these
 
 Irreplaceable. Each is a single testbed or simulator session and cannot be
@@ -25,28 +34,36 @@ regenerated from anything in this repository.
 | `ellipse1_2026-10-07-06-56-59.bag` | 953 M | 7 Oct 2026 | ellipse 1 — **reported** |
 | `zigzag_2026-10-07-07-01-17.bag` | 748 M | 7 Oct 2026 | zigzag — **reported** |
 | `ellipse2_2026-10-07-06-59-01.bag` | 883 M | 7 Oct 2026 | ellipse 2, recorded but not reported |
-| `ribbon_2026-10-07-07-03-34.bag` | 851 M | 7 Oct 2026 | ribbon, recorded but not reported |
 
 Recorded by Clayder Alejandro Gonzalez Cadenillas. Sensor: Velodyne HDL-32E, 32
 beams, 10 Hz, mounted 0.652 m above the regolith.
 
 The four marked **reported** are the runs behind every number in the final
-report. Approximately 6 GB with their tf bags.
+report. Approximately 6 GB with their tf bags. 
+
+A sixth recording from the same session, `ribbon_2026-10-07-07-03-34.bag`
+(851 M), exists on the original VM but is **not in the archive**. It was not
+used in any reported result.
 
 ### Companion tf bags — archive these too
 
 Each recording has a tf-only bag covering the same time window, replayed
 alongside the point-cloud bag so `crop_map_frame.py` can transform points into
 the map frame. They are inputs to the pipeline; nothing in this repository
-produces them, so they must be archived with the recordings.
-
+produces them, so without them **no crop can be rebuilt**.
+ 
+All of them are in `egh490_tf_bags.zip`:
+ 
 | recording | tf bag |
 |---|---|
 | `2026-09-16-07-03-07.bag` | `yandiwanba3_tf.bag` (2.7 M) |
-| `rectangle_…`, `ellipse1_…`, `ellipse2_…`, `zigzag_…`, `ribbon_…` | `<run>_tf.bag` |
-| `gz_loop.bag` | `gz_tf.bag` |
+| `rectangle_…`, `ellipse1_…`, `ellipse2_…`, `zigzag_…` | `<run>_tf.bag` |
+| the August pilot passes | `pass1_tf.bag`, `pass2_tf.bag` |
+ 
+`reprocess_lim.sh` holds the authoritative bag/tf pairing for each run, along
+with its yaw and crop box.
 
-## Derived files — do not archive, regenerate instead
+## Derived files — regenerate 
 
 Everything below is produced by scripts in this repository from the source
 recordings above. They are excluded from git and should be left out of any
@@ -67,12 +84,6 @@ To rebuild the filtered levels for one recording:
     cd ~/catkin_ws/data
     RUN=rectangle BAG=rectangle_2026-10-07-06-53-20.bag TF=rectangle_tf.bag \
         ../pipeline/testbed/crop_run.sh
-
-See the header of `crop_run.sh` for the full argument list, and `crop_all.sh`
-for the box, yaw and ceiling values actually used. `results/testbed/crop_logs/`
-records what each crop removed, run by run.
-
-    Place under: data/lusnar/ with the structure gt.txt, imu.txt, LiDAR/
 
 ## Rebuilding everything from scratch
 
