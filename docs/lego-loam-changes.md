@@ -33,14 +33,6 @@ Logged per scan:
 `pipeline/testbed/derive_structure.py` turns the raw log into `structure.csv`,
 which is what every analysis script reads.
 
-**Overhead was measured, not assumed:** three runs with logging on and three
-with it off gave 0.101 m and 0.103 m ATE, inside normal run-to-run variation,
-with no dropped scans.
-
-**A column absent from the first row is dropped for the whole run.** The logger
-freezes its schema on the first write, so `declare()` must be called for every
-field up front. This bit once already.
-
 ---
 
 ## 2. The degeneracy threshold (`eignThre`)
@@ -105,9 +97,6 @@ With `useCloudRing = true` the ring field assigns rows, so `ang_res_y` and
 ---
 
 ## 4. Segmentation parameters
-
-Changed from upstream in `d31f6a9` and unchanged since, so identical across
-every run.
 
 | parameter | upstream | ours | effect |
 |---|---|---|---|
